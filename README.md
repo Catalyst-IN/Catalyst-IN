@@ -19,3 +19,5 @@ Please read our [Contributing Guidelines](https://github.com/Catalyst-SMVD/Catal
 You can reach the maintainers and our community on [Catalyst-discord](https://discord.gg/dHtDhHa).  Where you can ask questions and interact with the community, join with us!
 
 ## License
+
+The project is licensed under the GNU General Public License v3.0. Learn more about it in the [LICENSE](https://github.com/Catalyst-SMVD/Catalyst/blob/master/LICENSE) file.
