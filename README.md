@@ -2,6 +2,8 @@
 
 This is the main website for Catalyst Open Source. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us.This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
 
+![Wireframe](https://user-images.githubusercontent.com/47811606/82260167-63f0b280-997a-11ea-9960-45dd4b3e7154.png)
+
 ## Contributing
 
 **This project is under active development**
