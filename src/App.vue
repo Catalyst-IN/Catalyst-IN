@@ -3,14 +3,14 @@
         <div class="container">
             <appheader></appheader>
         </div>
-        <hr>
+        <hr class="container">
         <div class="container">
             <appbody></appbody>
             <appbody></appbody>
             <appbody></appbody>
             <appbody></appbody>
         </div>
-        <hr>
+        <hr class="container">
         <div class="container">
             <appfooter></appfooter>
         </div>
