@@ -61,7 +61,7 @@ ul{
 }
 
 li{
-    
+    margin-top: 2%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 a,a:visited{
