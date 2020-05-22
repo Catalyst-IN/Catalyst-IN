@@ -5,10 +5,7 @@
         </div>
         <hr class="container">
         <div class="container">
-            <appbody></appbody>
-            <appbody></appbody>
-            <appbody></appbody>
-            <appbody></appbody>
+            <appaim></appaim>
         </div>
         <hr class="container">
         <div class="container">
@@ -19,14 +16,14 @@
 
 <script>
 import header from "./components/header";
-import body from "./components/body";
 import footer from "./components/footer";
+import aim from "./components/aim";
 
 export default {
     components: {
         appheader: header,
-        appbody: body,
-        appfooter: footer
+        appfooter: footer,
+        appaim: aim
     }
 }
 </script>
