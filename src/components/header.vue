@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light header">
-        <img src="../assets/logo.png" class="img-thumbnail logo" width="200" height="200"/>
+        <img src="../assets/logo.png" class="img-thumbnail logo" width="200" height="200">
 
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
