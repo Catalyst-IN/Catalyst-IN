@@ -8,7 +8,7 @@
                 This repo contains links of the events and when are the events going to take place.</p>
         </div>
         <div class="col-6">
-            <img src="../assets/giphy.gif" width="450" height="240"/>
+            <img src="../assets/giphy.gif" width="400" height="240" class="gif"/>
         </div>
     </div>
 </template>
@@ -23,5 +23,17 @@
     .aim{
         font-family: 'Ubuntu', sans-serif;
         text-align: justify;
+    }
+    .aim h2{
+        color: #ffd633 ;
+    }
+    .aim h2:hover{
+        color: black;
+    }
+    .gif{
+        box-shadow: 3px 3px grey;
+    }
+    .gif:hover{
+        box-shadow: 3px 3px #ffd633 ;
     }
 </style>
