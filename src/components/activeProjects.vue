@@ -1,9 +1,10 @@
 <template>
     <div class="col-sm-6 col-md-4 col-lg-3">
         <div id="root">
-            <div class="parallelogram">
+            <div class="box">
                 <div class="content">
                     <slot name="title" class="title"></slot>
+                    <hr>
                     <slot name="body" class="content"></slot>
                 </div>
             </div>
@@ -44,41 +45,43 @@
     body {
         font-family: 'Ubuntu', sans-serif;
     }
-    #root .parallelogram {
+    #root .box {
         width: 270px;
         height: 350px;
         padding: 2rem;
-        transform: skewY(-10deg);
         border-radius: 4px;
         background: #f8ba26;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+        /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18); */
+        box-shadow: 5px 10px 8px #888888;
         color: white;
         display: flex;
         position: relative;
         flex-direction: colunm;
         transition: all 0.5s ease-in-out;
-        border: 4px solid transparent;
-        border-image: linear-gradient(30deg, lightgrey 10%, lightyellow 25%, grey 50%, white 75%, black 90%);
-        -webkit-border-image: -webkit-linear-gradient(30deg, lightgrey 10%, 	black 25%, lightblue 50%, lightyellow 75%, grey 90%);
         border-image-slice: 1;
+        overflow: hidden;
+        transition: width 2s, height 2s;
+    }
+
+   #root .box:hover{
+        width: 200px;
+        height: 300px;
     }
 
 
-    #root .parallelogram .content {
-        transform: skewY(10deg);
-        margin: 30px auto 0 auto;
+    #root .box .content {
+        /* margin: 20px auto 0 auto; */
     }
 
-    #root .parallelogram .content p {
+    #root .box .content p {
         font-size: 20px;
     }
 
-    #root .parallelogram .content * {
+    #root .box .content * {
         margin-bottom: 40px;
-        line-height: 1.5;
+        line-height: 1;
     }
-      #root .parallelogram:hover{
-        height: 400px;
+    root .box:hover{
 
     }
     .title{

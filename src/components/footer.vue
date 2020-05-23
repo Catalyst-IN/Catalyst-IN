@@ -68,7 +68,7 @@ a,a:visited{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #54BCEB;
 }
