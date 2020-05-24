@@ -1,8 +1,9 @@
 <template>
     <div class="row">
         <app-active v-for="project in info" :key="project.id">
-            <h1 slot="title">{{ project.title }}</h1>
+            <h5 slot="title">{{ project.title }}</h5>
             <p slot="body">{{ project.body }}</p>
+           <button class="btn btn-info" slot="link"><a :href="project.link" target="_blank">Know More</a></button>
         </app-active>
     </div>
 </template>

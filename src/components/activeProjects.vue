@@ -1,11 +1,13 @@
 <template>
     <div class="col-sm-6 col-md-4 col-lg-3">
         <div id="root">
-            <div class="box">
-                <div class="content">
-                    <slot name="title" class="title"></slot>
+            <div class="box" >
+                <div class="content" >
+                    <slot name="title" class="title" ></slot>
                     <hr>
                     <slot name="body" class="content"></slot>
+                    <br>
+                    <slot name="link"></slot>
                 </div>
             </div>
         </div>
@@ -16,6 +18,7 @@
 
 <script>
     export default {
+        
     }
 </script>
 
@@ -48,7 +51,7 @@
     #root .box {
         width: 270px;
         height: 350px;
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 4px;
         background: #f8ba26;
         /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18); */
@@ -63,29 +66,33 @@
         transition: width 2s, height 2s;
     }
 
-   #root .box:hover{
-        width: 200px;
-        height: 300px;
-    }
-
-
-    #root .box .content {
-        /* margin: 20px auto 0 auto; */
-    }
 
     #root .box .content p {
         font-size: 20px;
     }
 
+    
     #root .box .content * {
-        margin-bottom: 40px;
+        margin-bottom: 1px;
         line-height: 1;
     }
-    root .box:hover{
 
-    }
+
     .title{
         text-align: center;
+        
     }
+
+    #root .box:hover{
+        width: 200px;
+        height: 300px;
+    }
+
+
+    a,a:hover{
+        color:white;
+        text-decoration: none;
+    }
+
 
 </style>

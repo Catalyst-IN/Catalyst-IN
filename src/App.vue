@@ -44,10 +44,10 @@ export default {
                 {title: 'sample', body: 'sample text for holding place'},
                 {title: 'sample', body: 'sample text for holding place'}
             ],
-            activeprojects: [{title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud '},
-                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation '},
-                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation '},
-                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation'}
+            activeprojects: [{title: 'OpenSourceEvents-IOS', body: 'This iOS-application contains a list of open source events and hackathons',link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS"},
+                {title: 'OpenSourceEvents-Frontend', body: 'This website contains a list of open source events and hackathons',link: "https://opensourcefrontend.netlify.app/"},
+                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  ',link: "#"},
+                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ',link: "#"}
             ]
         };
     },
