@@ -2,10 +2,12 @@
     <div class="row">
         <div class="col-6 aim">
             <h2>Aim of our organization</h2>
-            <p>  </p>
+            <p> The aim of the Catalyst network is to provide a platform to all beginner developers to come and work with us on live open source projects; it helps them become experienced contributors as well as skilled developers.
+
+                We also provide a space to all developers who have new, exciting ideas in mind that may open possibilities of discussion in society. As an organisation full of skilled developers we can work with you to help make your ideas reality. </p>
         </div>
         <div class="col-6">
-            <img src="../assets/giphy.gif" width="400" height="240" class="gif"/>
+            <img src="../assets/open-source.png" height="100%" width="100%"/>
         </div>
     </div>
 </template>
@@ -20,9 +22,10 @@
     .aim{
         font-family: 'Ubuntu', sans-serif;
         text-align: justify;
+        font-size: 18px;
     }
     .aim h2{
-        color: #ffd633 ;
+        color: black ;
     }
     .aim h2:hover{
         color: black;

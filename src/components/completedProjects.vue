@@ -5,6 +5,7 @@
                 <div class="content">
                     <slot name="title" class="title"></slot>
                     <slot name="body" class="content"></slot>
+                    <slot name="link"></slot>
                 </div>
             </div>
         </div>
@@ -46,8 +47,9 @@
     }
     #root .parallelogram {
         width: 270px;
-        height: 350px;
+        height: 450px;
         padding: 2rem;
+        margin: 20px 20px 20px 20px;
         transform: skewY(-10deg);
         border-radius: 4px;
         background: #f8ba26;
@@ -78,7 +80,7 @@
         line-height: 1.5;
     }
       #root .parallelogram:hover{
-        height: 400px;
+        height: 550px;
 
     }
     .title{
