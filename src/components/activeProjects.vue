@@ -51,6 +51,7 @@
     #root .box {
         width: 270px;
         height: 350px;
+        margin: 20px 20px 20px 20px;
         padding: 1rem;
         border-radius: 4px;
         background: #f8ba26;

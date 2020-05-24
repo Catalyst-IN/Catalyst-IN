@@ -7,7 +7,7 @@
         <div class="container">
             <appaim></appaim>
             <hr>
-        </div>>
+        </div>
         <div class="container">
             <h3>Active projects</h3>
             <br>
@@ -20,8 +20,11 @@
             <br>
             <cp :details="completedprojects"></cp>
             <br><br>
+            <hr>
+            <h3>Contributors</h3>
+            <contri :slides="slides"></contri>
         </div>
-        <hr class="container">
+        <hr>
         <div class="container">
             <appfooter></appfooter>
         </div>
@@ -34,20 +37,16 @@ import footer from "./components/footer";
 import aim from "./components/aim";
 import gridView from "./components/gridView";
 import gridViewactive from "./components/gridViewactive";
+import contributor from "./components/contributor";
 
 export default {
     data: function(){
         return {
             completedprojects: [
-                {title: 'chatbot', body: 'This chatbot helps the police in automating response from citizens'},
-                {title: 'sample', body: 'sample text for holding place'},
-                {title: 'sample', body: 'sample text for holding place'},
-                {title: 'sample', body: 'sample text for holding place'}
+                {title: 'chatbot', body: 'This chatbot helps the police in automating response from citizens', link: 'https://github.com/Catalyst-CSE/Chat-Bot'}
             ],
             activeprojects: [{title: 'OpenSourceEvents-IOS', body: 'This iOS-application contains a list of open source events and hackathons',link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS"},
-                {title: 'OpenSourceEvents-Frontend', body: 'This website contains a list of open source events and hackathons',link: "https://opensourcefrontend.netlify.app/"},
-                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  ',link: "#"},
-                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ',link: "#"}
+                {title: 'OpenSourceEvents-Frontend', body: 'This website contains a list of open source events and hackathons',link: "https://opensourcefrontend.netlify.app/"}
             ]
         };
     },
@@ -56,7 +55,8 @@ export default {
         appfooter: footer,
         appaim: aim,
         cp: gridView,
-        appactive: gridViewactive
+        appactive: gridViewactive,
+        contri: contributor
     }
 }
 </script>
