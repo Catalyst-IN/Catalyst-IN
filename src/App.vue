@@ -7,7 +7,14 @@
         <div class="container">
             <appaim></appaim>
             <hr>
+        </div>>
+        <div class="container">
+            <h3>Active projects</h3>
+            <br>
+            <appactive :info="activeprojects"></appactive>
+            <br><br>
         </div>
+        <hr class="container">
         <div class="container">
             <h3>Completed projects</h3>
             <br>
@@ -26,13 +33,21 @@ import header from "./components/header";
 import footer from "./components/footer";
 import aim from "./components/aim";
 import gridView from "./components/gridView";
+import gridViewactive from "./components/gridViewactive";
 
 export default {
     data: function(){
         return {
             completedprojects: [
                 {title: 'chatbot', body: 'This chatbot helps the police in automating response from citizens'},
+                {title: 'sample', body: 'sample text for holding place'},
+                {title: 'sample', body: 'sample text for holding place'},
                 {title: 'sample', body: 'sample text for holding place'}
+            ],
+            activeprojects: [{title: 'OpenSourceEvents-IOS', body: 'This iOS-application contains a list of open source events and hackathons',link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS"},
+                {title: 'OpenSourceEvents-Frontend', body: 'This website contains a list of open source events and hackathons',link: "https://opensourcefrontend.netlify.app/"},
+                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  ',link: "#"},
+                {title: 'Test', body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ',link: "#"}
             ]
         };
     },
@@ -40,14 +55,15 @@ export default {
         appheader: header,
         appfooter: footer,
         appaim: aim,
-        cp: gridView
+        cp: gridView,
+        appactive: gridViewactive
     }
 }
 </script>
 
 <style scoped>
 h3{
-    color: #f8ba26;
+    color: black;
     font-family: 'Ubuntu', sans-serif;
 }
 </style>
