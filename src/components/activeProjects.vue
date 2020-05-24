@@ -73,7 +73,7 @@
 
     
     #root .box .content * {
-        margin-bottom: 1px;
+        margin-bottom: 20px;
         line-height: 1;
     }
 
