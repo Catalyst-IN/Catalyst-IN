@@ -2,63 +2,63 @@
     <carousel-3d>
         <slide :index="0" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/anubhav.jpg" />
+                <img class="img__img" src="../assets/anubhav.jpg" />
                 <p class="img__description">formal website catalyst <br> IOS app for catalyst</p>
                 <div class="centered"> Anubhav Singh <br>Admin</div>
             </div>
         </slide>
         <slide :index="1" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/pushpinder.jpg" />
+                <img class="img__img" src="../assets/pushpinder.jpg" />
                 <p class="img__description">formal website catalyst <br> IOS app for catalyst</p>
                 <div class="centered"> Pushpinder Pal <br>Admin</div>
             </div>
         </slide>
         <slide :index="2" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/aryaman.jpg" />
+                <img class="img__img" src="../assets/aryaman.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst <br> chat bot</p>
                 <div class="centered"> Aryaman Puri <br>Admin</div>
             </div>
         </slide>
         <slide :index="3" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/aashim.jpg" />
+                <img class="img__img" src="../assets/aashim.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst</p>
                 <div class="centered"> Aashim Garg <br>Mentor</div>
             </div>
         </slide>
         <slide :index="4" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/aman.jpg" />
+                <img class="img__img" src="../assets/aman.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst</p>
                 <div class="centered"> Aman Kumar <br>Mentor</div>
             </div>
         </slide>
         <slide :index="5" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/hrishikesh.jpg" />
+                <img class="img__img" src="../assets/hrishikesh.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst</p>
                 <div class="centered"> Hrishikesh Agarwal <br>Contributor</div>
             </div>
         </slide>
         <slide :index="6" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/vinayak.jpg" />
+                <img class="img__img" src="../assets/vinayak.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst</p>
                 <div class="centered"> Vinayak Sharma <br>Contributor</div>
             </div>
         </slide>
         <slide :index="7" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/bindusar.jpg" />
+                <img class="img__img" src="../assets/bindusar.jpg" />
                 <p class="img__description"> frontend website catalyst</p>
                 <div class="centered"> Bindusar Maurya <br>Contributor</div>
             </div>
         </slide>
         <slide :index="8" class="team">
             <div class="img__wrap">
-                <img class="img__img" src="../../public/photos/Sapna.jpg" />
+                <img class="img__img" src="../assets/Sapna.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst</p>
                 <div class="centered"> Hari Sapna Nair <br>Contributor</div>
             </div>

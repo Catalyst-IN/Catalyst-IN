@@ -4,11 +4,11 @@
    <div>
             <div  id="navbarText">
                 <ul id="icons">
-                <a href="#">    <li><img src="../../public/iconfinder_github_rounded_394187.png" height="40px" width="40px"/></li> </a>
-                <a href="#">    <li><img src="../../public/iconfinder_1_Twitter_colored_svg_5296514.png" height="40px" width="40px"/></li> </a>
-                <a href="#">    <li><img src="../../public/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" height="40px" width="40px"/></li> </a>
-                <a href="#">    <li><img src="../../public/iconfinder_008_Mail_183573.png" height="40px" width="40px"/></li> </a>
-                <a href="#">    <li><img src="../../public/iconfinder_1_Facebook_colored_svg_copy_5296499.png" height="40px" width="40px"/></li> </a>
+                <a href="#">    <li><img src="../assets/iconfinder_github_rounded_394187.png" height="40px" width="40px"/></li> </a>
+                <a href="#">    <li><img src="../assets/iconfinder_1_Twitter_colored_svg_5296514.png" height="40px" width="40px"/></li> </a>
+                <a href="#">    <li><img src="../assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" height="40px" width="40px"/></li> </a>
+                <a href="#">    <li><img src="../assets/iconfinder_008_Mail_183573.png" height="40px" width="40px"/></li> </a>
+                <a href="#">    <li><img src="../assets/iconfinder_1_Facebook_colored_svg_copy_5296499.png" height="40px" width="40px"/></li> </a>
                 </ul>
         </div>
         <hr id="divider">
