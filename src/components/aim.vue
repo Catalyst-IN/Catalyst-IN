@@ -1,4 +1,18 @@
 <template>
+  <div>
+      <div class="row">
+          <div class="design"> 
+                <img src="../assets/color-bar.png" class="footer-img"/>
+          </div>
+          <div class="slogan col-4">
+              <p>let's change the direction of tech...<span id="together">together!</span>
+                 <br> 
+                <a href="#"><button id="donate">DONATE</button></a>
+              </p>
+              
+          </div>
+      </div>
+      <br>
     <div class="row">
         <div class="col-6 aim">
             <h2>Aim of our organization</h2>
@@ -10,6 +24,7 @@
             <img src="../assets/open-source.png" height="100%" width="100%"/>
         </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -35,5 +50,34 @@
     }
     .gif:hover{
         box-shadow: 3px 3px #ffd633 ;
+    }
+
+    .design img{
+        /* width: 80%;
+        height: 120px; */
+        display: inline-block;
+    }
+
+    .slogan{
+        display: inline-block;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    .slogan p{
+        font-size: 30px;
+        color: #54BCEB;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #donate{
+        background-color: rgb(235, 61, 30);
+        color: white;
+        width: 300px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid rgb(235, 61, 30);
+    }
+
+    .slogan span{
+        color:#8d2165;
     }
 </style>
