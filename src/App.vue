@@ -3,7 +3,7 @@
         <div class="container">
             <appheader></appheader>
         </div>
-        <hr>
+        <hr class="navdivider">
         <div class="container">
             <appaim></appaim>
             <hr>
@@ -65,5 +65,9 @@ export default {
 h3{
     color: black;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.navdivider{
+    margin-top: 1rem;
 }
 </style>
