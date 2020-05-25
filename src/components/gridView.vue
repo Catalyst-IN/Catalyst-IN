@@ -20,7 +20,6 @@
 
 <style scoped>
 .btn{
-    background-color: black;
     color: white;
 }
 </style>

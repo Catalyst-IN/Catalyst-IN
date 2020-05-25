@@ -40,17 +40,12 @@
         font-size: 18px;
     }
     .aim h2{
-        color: black ;
+        color: black;
     }
     .aim h2:hover{
         color: black;
     }
-    .gif{
-        box-shadow: 3px 3px grey;
-    }
-    .gif:hover{
-        box-shadow: 3px 3px #ffd633 ;
-    }
+
 
     .design img{
         /* width: 80%;

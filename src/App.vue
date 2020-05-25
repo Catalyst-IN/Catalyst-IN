@@ -45,8 +45,8 @@ export default {
             completedprojects: [
                 {title: 'chatbot', body: 'This chatbot helps the police in automating response from citizens', link: 'https://github.com/Catalyst-CSE/Chat-Bot'}
             ],
-            activeprojects: [{title: 'OpenSourceEvents-IOS', body: 'This iOS-application contains a list of open source events and hackathons',link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS"},
-                {title: 'OpenSourceEvents-Frontend', body: 'This website contains a list of open source events and hackathons',link: "https://opensourcefrontend.netlify.app/"}
+            activeprojects: [{title: 'OpenSourceEvents-IOS', body: 'This iOS-application contains a list of open source events and hackathons',link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS",contri: ['To be Added']},
+                {title: 'OpenSourceEvents-Frontend', body: 'This website contains a list of open source events and hackathons',link: "https://opensourcefrontend.netlify.app/",contri: ['Vinayak Sharma','Hrishikesh Agarwal','Bindusar Maurya','Hari Sapna Nair']}
             ]
         };
     },

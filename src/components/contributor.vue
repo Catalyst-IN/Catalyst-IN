@@ -11,7 +11,7 @@
             <div class="img__wrap">
                 <img class="img__img" src="../assets/pushpinder.jpg" />
                 <p class="img__description">formal website catalyst <br> IOS app for catalyst</p>
-                <div class="centered"> Pushpinder Pal <br>Admin</div>
+                <div class="centered"> Pushpinder Pal Singh<br>Admin</div>
             </div>
         </slide>
         <slide :index="2" class="team">
