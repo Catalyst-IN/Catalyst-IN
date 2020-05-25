@@ -20,7 +20,7 @@ Please read our [Contributing Guidelines](https://github.com/Catalyst-SMVD/Catal
 You should have `node` and `npm` installed in your system.  
 **1.** `git clone https://github.com/Catalyst-CSE/Catalyst.git`  
 **2.** Run `npm install` in the root directory to install the dependencies.  
-**3.** Run `npm run serve` in the root directory.
+**3.** Run `npm run serve` in the root directory.<br>
 **4.** Open `http://localhost:8080/` in any web browser.
 
 ## Contact
