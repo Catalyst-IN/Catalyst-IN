@@ -1,11 +1,17 @@
 <template>
     <div class="col-sm-6 col-md-4 col-lg-3">
         <div id="root">
-            <div class="parallelogram">
+            <div class="oval">
                 <div class="content">
-                    <slot name="title" class="title"></slot>
-                    <slot name="body" class="content"></slot>
-                    <slot name="link"></slot>
+                    <div class="title">
+                        <slot name="title"></slot>
+                    </div>
+                    <div class="body">
+                        <slot name="body"></slot>
+                    </div>
+                    <div class="link">
+                        <slot name="link"></slot>
+                    </div>
                 </div>
             </div>
         </div>
@@ -20,71 +26,35 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
-
-    * {
-        margin: 0;
-        padding: 0;
-        outline: 0;
-        box-sizing: border-box;
-    }
-
-    html,
-    body,
-    #root {
-        height: 100%;
-    }
-
-    #root {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
     body {
         font-family: 'Ubuntu', sans-serif;
+        text-align: center;
     }
-    #root .parallelogram {
-        width: 270px;
-        height: 450px;
-        padding: 2rem;
+    .oval {
+        height: 400px;
+        width: 300px;
+        background-color: rgb(255, 204, 7);
+        border-radius: 50%;
+        box-shadow: 4px 4px rgba(24,24,24,0.49);
+        transition: width 2s, height 2s;
+        transition: all 1s ease-in-out;
+    }
+    .body{
         margin: 20px 20px 20px 20px;
-        transform: skewY(-10deg);
-        border-radius: 4px;
-        background: #f8ba26;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
-        color: white;
-        display: flex;
-        position: relative;
-        flex-direction: colunm;
-        transition: all 0.5s ease-in-out;
-        border: 4px solid transparent;
-        border-image: linear-gradient(30deg, lightgrey 10%, lightyellow 25%, grey 50%, white 75%, black 90%);
-        -webkit-border-image: -webkit-linear-gradient(30deg, lightgrey 10%, 	black 25%, lightblue 50%, lightyellow 75%, grey 90%);
-        border-image-slice: 1;
-    }
-
-
-    #root .parallelogram .content {
-        transform: skewY(10deg);
-        margin: 30px auto 0 auto;
-    }
-
-    #root .parallelogram .content p {
-        font-size: 20px;
-    }
-
-    #root .parallelogram .content * {
-        margin-bottom: 40px;
-        line-height: 1.5;
-    }
-      #root .parallelogram:hover{
-        height: 550px;
-
+        font-size: 18px;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 15px;
     }
     .title{
         text-align: center;
+        margin: 50px 50px 20px 50px;
+        color: white;
+        font-size: 16px;
+        border-bottom: 1px solid grey;
+    }
+    .oval:hover{
+        height: 340px;
+        width: 220px;
     }
 
 </style>

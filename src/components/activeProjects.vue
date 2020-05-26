@@ -8,6 +8,7 @@
                     <slot name="body" class="content"></slot>
                     <br>
                     <slot name="link"></slot>
+                    <p class="img__description" id="font">Contributors <br><slot name="list"></slot></p>
                 </div>
             </div>
         </div>
@@ -85,8 +86,8 @@
     }
 
     #root .box:hover{
-        width: 200px;
-        height: 300px;
+        width: 350px;
+        height: 450px;
     }
 
 
@@ -94,6 +95,19 @@
         color:white;
         text-decoration: none;
     }
-
+    .img__description {
+        font-family: 'Ubuntu', sans-serif;
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        font-size: 14px;
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
+    .box:hover .img__description {
+        visibility: visible;
+        text-align: center;
+        opacity: 1;
+    }
 
 </style>
