@@ -1,29 +1,41 @@
 <template>
-    <agile :rtl="false"  :dots="true" :infinite="true" :autoplay="true" :autoplay-speed="5000" :pauseOnHover="true" :centerMode="true">
-        <div class="slide">
-            <a href="https://github.com/Catalyst-CSE" target="_blank"><img src="../assets/event2.png"></a>
-        </div>
-        <div class="slide">
-        <a href="https://github.com/Catalyst-CSE" target="_blank" ><img src="../assets/event3.png"></a>
-        </div>
-		<div class="slide">
-            <a href="https://github.com/Catalyst-CSE" target="_blank"><img src="../assets/event4.png"></a>
-        </div>
-        <template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
+  <agile
+    :rtl="false"
+    :dots="true"
+    :infinite="true"
+    :autoplay="true"
+    :autoplay-speed="5000"
+    :pauseOnHover="true"
+    :centerMode="true"
+  >
+    <div class="slide">
+      <a href="https://github.com/Catalyst-CSE" target="_blank"
+        ><img src="../assets/event2.png"
+      /></a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/Catalyst-CSE" target="_blank"
+        ><img src="../assets/event3.png"
+      /></a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/Catalyst-CSE" target="_blank"
+        ><img src="../assets/event4.png"
+      /></a>
+    </div>
+    <template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
     <template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
-    </agile>
+  </agile>
 </template>
 
-
 <script>
-import { VueAgile } from 'vue-agile'
+import { VueAgile } from "vue-agile";
 export default {
-    components: {
-        agile: VueAgile 
-    }
-}
+  components: {
+    agile: VueAgile,
+  },
+};
 </script>
-
 
 <style lang="sass">
 // VueAgile styles
@@ -59,7 +71,7 @@ export default {
 	&__dot
 		margin: 0 10px
 
-		button 
+		button
 			background-color: transparent
 			border: 1px solid #fff
 			border-radius: 50%
@@ -78,7 +90,7 @@ export default {
 			button
 				background-color: #fff
 
-// Slides styles	
+// Slides styles
 .slide
 	display: block
 	height: 500px
@@ -88,5 +100,4 @@ export default {
   width: 100%
   height: 100%
   overflow: hidden
-    
 </style>
