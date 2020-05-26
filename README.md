@@ -16,7 +16,8 @@ Please read our [Contributing Guidelines](https://github.com/Catalyst-SMVD/Catal
 - **develop**: This contains the latest code. All the contributing PRs must be sent to this branch.
 - **production**: Merge develop into production triggers deployment of the website.
 
-### Usage  
+### Usage
+
 You should have `node` and `npm` installed in your system.  
 **1.** `git clone https://github.com/Catalyst-CSE/Catalyst.git`  
 **2.** Run `npm install` in the root directory to install the dependencies.  
@@ -25,7 +26,7 @@ You should have `node` and `npm` installed in your system.
 
 ## Contact
 
-You can reach the maintainers and our community on [Catalyst-discord](https://discord.gg/dHtDhHa).  Where you can ask questions and interact with the community, join with us!
+You can reach the maintainers and our community on [Catalyst-discord](https://discord.gg/dHtDhHa). Where you can ask questions and interact with the community, join with us!
 
 ## License
 
