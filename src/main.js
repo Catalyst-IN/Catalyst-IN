@@ -1,11 +1,11 @@
-import Vue from 'vue'
-import App from './App.vue'
-import VueAgile from 'vue-agile'
+import Vue from "vue";
+import App from "./App.vue";
+import VueAgile from "vue-agile";
 
-Vue.use(VueAgile)
+Vue.use(VueAgile);
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");
