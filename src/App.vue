@@ -9,6 +9,12 @@
             <hr>
         </div>
         <div class="container">
+             <h3>Events</h3>
+             <br>
+        <appevents></appevents>
+        </div>
+        <hr class="container">        
+        <div class="container">
             <h3>Active projects</h3>
             <br>
             <appactive :info="activeprojects"></appactive>
@@ -38,6 +44,7 @@ import aim from "./components/aim";
 import gridView from "./components/gridView";
 import gridViewactive from "./components/gridViewactive";
 import contributor from "./components/contributor";
+import events from "./components/events";
 
 export default {
     data: function(){
@@ -56,7 +63,8 @@ export default {
         appaim: aim,
         cp: gridView,
         appactive: gridViewactive,
-        contri: contributor
+        contri: contributor,
+        appevents: events
     }
 }
 </script>

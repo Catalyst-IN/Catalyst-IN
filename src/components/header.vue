@@ -15,8 +15,8 @@
         <div>
             <nav class="navbar navbar-light bg-light">
                 <form class="form-inline ">
-                <a href="#"> <button class="btn  bt-nav " type="button">Who we are</button> </a>
-                <a href="#"> <button class="btn  bt-nav " type="button">What we do</button> </a>
+                 <button class="btn  bt-nav " type="button"><a href="#">Who we are</a></button>
+                 <button class="btn  bt-nav " type="button"><a href="#">What we do</a></button>
                 </form>
             </nav>
         </div>
@@ -83,6 +83,16 @@
          background-color: #f8ba26;
          color: white;
      }
+
+     .bt-nav:hover a{
+         color: white;
+     }
+
+     .bt-nav a{
+         color:black;
+     }
+
+  
 
 
 </style>
