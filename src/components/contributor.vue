@@ -39,14 +39,14 @@
             <div class="img__wrap">
                 <img class="img__img" src="../assets/hrishikesh.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst</p>
-                <div class="centered"> Hrishikesh Agarwal <br>Contributor</div>
+                <div class="centered"> Hrishikesh Agarwal <br>Member</div>
             </div>
         </slide>
         <slide :index="6" class="team">
             <div class="img__wrap">
                 <img class="img__img" src="../assets/vinayak.jpg" />
                 <p class="img__description">formal website catalyst <br> frontend website catalyst</p>
-                <div class="centered"> Vinayak Sharma <br>Contributor</div>
+                <div class="centered"> Vinayak Sharma <br>Member</div>
             </div>
         </slide>
         <slide :index="7" class="team">
