@@ -22,11 +22,6 @@
     </div>
     <hr class="container" />
     <div class="container">
-      <h3>Completed projects</h3>
-      <br />
-      <cp :details="completedprojects"></cp>
-      <br /><br />
-      <hr />
       <h3>Contributors</h3>
       <contri :slides="slides"></contri>
     </div>
@@ -41,7 +36,6 @@
 import header from "./components/header";
 import footer from "./components/footer";
 import aim from "./components/aim";
-import gridView from "./components/gridView";
 import gridViewactive from "./components/gridViewactive";
 import contributor from "./components/contributor";
 import events from "./components/events";
@@ -59,16 +53,20 @@ export default {
       ],
       activeprojects: [
         {
-          title: "OpenSourceEvents-IOS",
+          title: 'IOS app',
+          subtitle: "OpenSourceEvents-IOS",
           body:
             "This iOS-application contains a list of open source events and hackathons",
           link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS",
+          imageLink: 'ios-app.png'
         },
         {
-          title: "OpenSourceEvents-Frontend",
+          title: 'Website',
+          subtitle: "OpenSourceEvents-Frontend",
           body:
             "This website contains a list of open source events and hackathons",
           link: "https://opensourcefrontend.netlify.app/",
+          imageLink: 'logo.png'
         },
       ],
     };
@@ -77,7 +75,6 @@ export default {
     appheader: header,
     appfooter: footer,
     appaim: aim,
-    cp: gridView,
     appactive: gridViewactive,
     contri: contributor,
     appevents: events,
