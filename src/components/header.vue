@@ -68,7 +68,7 @@
             <button class="btn bt-nav" type="button">
               <a href="#">What we do</a>
             </button>
-             <button class="btn bt-nav" type="button">
+            <button class="btn bt-nav" type="button">
               <a href="#events">Events</a>
             </button>
           </form>

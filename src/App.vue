@@ -83,7 +83,6 @@ export default {
 </script>
 
 <style scoped>
-
 h3 {
   color: black;
   font-family: "Ubuntu", sans-serif;
