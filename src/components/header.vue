@@ -68,6 +68,9 @@
             <button class="btn bt-nav" type="button">
               <a href="#">What we do</a>
             </button>
+            <button class="btn bt-nav" type="button">
+              <a href="#events">Events</a>
+            </button>
           </form>
         </nav>
       </div>
@@ -120,10 +123,10 @@ ul {
 }
 
 .bt-nav {
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 33px;
+  margin-right: 33px;
   border: 1px solid #f8ba26;
   font-weight: bold;
 }
@@ -135,6 +138,7 @@ ul {
 
 .bt-nav:hover a {
   color: white;
+  text-decoration: none;
 }
 
 .bt-nav a {

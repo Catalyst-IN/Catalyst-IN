@@ -8,7 +8,7 @@
       <appaim></appaim>
       <hr />
     </div>
-    <div class="container">
+    <div class="container" id="events">
       <h3>Events</h3>
       <br />
       <appevents></appevents>
