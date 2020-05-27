@@ -53,20 +53,20 @@ export default {
       ],
       activeprojects: [
         {
-          title: 'IOS app',
+          title: "IOS app",
           subtitle: "OpenSourceEvents-IOS",
           body:
             "This iOS-application contains a list of open source events and hackathons",
           link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS",
-          imageLink: 'ios-app.png'
+          imageLink: "ios-app.png",
         },
         {
-          title: 'Website',
+          title: "Website",
           subtitle: "OpenSourceEvents-Frontend",
           body:
             "This website contains a list of open source events and hackathons",
           link: "https://opensourcefrontend.netlify.app/",
-          imageLink: 'logo.png'
+          imageLink: "logo.png",
         },
       ],
     };
