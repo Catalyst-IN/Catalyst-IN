@@ -4,8 +4,8 @@
           <div class="design"> 
                 <img src="../assets/color-bar.png" class="footer-img"/>
           </div>
-          <div class="slogan col-4">
-              <p>let's change the direction of tech...<span id="together">together!</span>
+          <div class="slogan col-5">
+              <p><span>Young Imagination Network!</span>
                  <br> 
                 <a href="#"><button id="donate">DONATE</button></a>
               </p>
@@ -79,5 +79,8 @@
 
     .slogan span{
         color:#8d2165;
+         font-size: 30px;
+         font-family: 'Roboto', sans-serif;
+         font-weight: bold;
     }
 </style>
