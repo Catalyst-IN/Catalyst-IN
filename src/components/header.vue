@@ -62,13 +62,16 @@
       <div>
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
-            <button class="btn bt-nav" type="button">
+            <button class="btn bt-nav" type="button" @click="change4">
+              <a href="#">Home</a>
+            </button>
+            <button class="btn bt-nav" type="button" @click="change1">
               <a href="#">Who we are</a>
             </button>
-            <button class="btn bt-nav" type="button">
+            <button class="btn bt-nav" type="button" @click="change2">
               <a href="#">What we do</a>
             </button>
-            <button class="btn bt-nav" type="button">
+            <button class="btn bt-nav" type="button" @click="change3">
               <a href="#events">Events</a>
             </button>
           </form>
@@ -80,7 +83,26 @@
 
 <script>
 export default {
-  name: "header",
+  props: ['selected'],
+  methods: {
+    change1(){
+      this.selected='whoweare';
+      this.$emit('namewasreset',this.selected);
+    },
+    change2(){
+      this.selected='whatwedo';
+      this.$emit('namewasreset',this.selected);
+    },
+    change3(){
+      this.selected='events';
+      this.$emit('namewasreset',this.selected);
+    },
+    change4(){
+      this.selected='home';
+      this.$emit('namewasreset',this.selected);
+    }
+  },
+
 };
 </script>
 

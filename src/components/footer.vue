@@ -8,10 +8,10 @@
                 <div class="fc-right">
                     <div class="fc-nav">
                         <ul>
-                            <li><a href="#">PRIVACY POLICY</a></li>
-                            <li><a href="#">TERMS OF USE</a></li>
-                            <li><a href="#">SUBSCRIBE TO THE NEWSLETTER</a></li>
-                            <li><a href="#">CONTACT US</a></li>
+                            <li><button @click="change1"><a >PRIVACY POLICY</a></button></li>
+                            <li><button @click="change2"><a >TERMS OF USE</a></button></li>
+                            <li><button @click="change3"><a >SUBSCRIBE TO THE NEWSLETTER</a></button></li>
+                            <li><button @click="change4"><a >CONTACT US</a></button></li>
                         </ul>
                     </div>
                     <div class="fc-mission">
@@ -30,7 +30,25 @@
 
 <script>
     export default {
-        name: "footer"
+        props: ['selected'],
+        methods: {
+            change1(){
+                this.selected='privacy';
+                this.$emit('namewasreset',this.selected);
+            },
+            change2(){
+                this.selected='terms';
+                this.$emit('namewasreset',this.selected);
+            },
+            change3(){
+                this.selected='newsletter';
+                this.$emit('namewasreset',this.selected);
+            },
+            change4(){
+                this.selected='contact';
+                this.$emit('namewasreset',this.selected);
+            }
+        },
     }
 </script>
 

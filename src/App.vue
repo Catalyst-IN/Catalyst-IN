@@ -1,83 +1,61 @@
 <template>
   <div>
+
+<!--    navbar/header-->
+
     <div class="container">
-      <appheader></appheader>
+      <appheader
+              :selected="selected"
+              @namewasreset="selected=$event"></appheader>
     </div>
     <hr class="navdivider" />
+
+<!--    dyanamic components-->
+
+    <keep-alive>
+      <component :is="selected"></component>
+    </keep-alive>
+
+<!--    footer-->
+
+      <hr>
     <div class="container">
-      <appaim></appaim>
-      <hr />
+      <appfooter :selected="selected" @namewasreset="selected=$event"></appfooter>
     </div>
-    <div class="container" id="events">
-      <h3>Events</h3>
-      <br />
-      <appevents></appevents>
-    </div>
-    <hr class="container" />
-    <div class="container">
-      <h3>Active projects</h3>
-      <br />
-      <appactive :info="activeprojects"></appactive>
-      <br /><br />
-    </div>
-    <hr class="container" />
-    <div class="container">
-      <h3>Contributors</h3>
-      <contri :slides="slides"></contri>
-    </div>
-    <hr />
-    <div class="container">
-      <appfooter></appfooter>
-    </div>
+
   </div>
 </template>
 
 <script>
 import header from "./components/header";
 import footer from "./components/footer";
-import aim from "./components/aim";
-import gridViewactive from "./components/gridViewactive";
-import contributor from "./components/contributor";
-import events from "./components/events";
+import home from "./home";
+import whoweare from "./whoweare";
+import whatwedo from "./whatwedo";
+import Events from "./Events";
+import contact from "./components/contact";
+import privacy from "./components/privacy";
+import terms from "./components/terms";
+import newsletter from "./components/newsletter";
+
 
 export default {
   data: function () {
     return {
-      completedprojects: [
-        {
-          title: "chatbot",
-          body:
-            "This chatbot helps the police in automating response from citizens",
-          link: "https://github.com/Catalyst-CSE/Chat-Bot",
-        },
-      ],
-      activeprojects: [
-        {
-          title: "IOS app",
-          subtitle: "OpenSourceEvents-IOS",
-          body:
-            "This iOS-application contains a list of open source events and hackathons",
-          link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS",
-          imageLink: "ios-app.png",
-        },
-        {
-          title: "Website",
-          subtitle: "OpenSourceEvents-Frontend",
-          body:
-            "This website contains a list of open source events and hackathons",
-          link: "https://opensourcefrontend.netlify.app/",
-          imageLink: "logo.png",
-        },
-      ],
+      selected: 'home'
     };
   },
   components: {
     appheader: header,
     appfooter: footer,
-    appaim: aim,
-    appactive: gridViewactive,
-    contri: contributor,
-    appevents: events,
+    home: home,
+      whoweare: whoweare,
+      whatwedo: whatwedo,
+      events: Events,
+      contact: contact,
+      privacy: privacy,
+      terms: terms,
+      newsletter: newsletter
   },
 };
 </script>
