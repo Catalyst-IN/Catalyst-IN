@@ -83,26 +83,25 @@
 
 <script>
 export default {
-  props: ['selected'],
+  props: ["selected"],
   methods: {
-    change1(){
-      this.selected='whoweare';
-      this.$emit('namewasreset',this.selected);
+    change1() {
+      this.selected = "whoweare";
+      this.$emit("namewasreset", this.selected);
     },
-    change2(){
-      this.selected='whatwedo';
-      this.$emit('namewasreset',this.selected);
+    change2() {
+      this.selected = "whatwedo";
+      this.$emit("namewasreset", this.selected);
     },
-    change3(){
-      this.selected='events';
-      this.$emit('namewasreset',this.selected);
+    change3() {
+      this.selected = "events";
+      this.$emit("namewasreset", this.selected);
     },
-    change4(){
-      this.selected='home';
-      this.$emit('namewasreset',this.selected);
-    }
+    change4() {
+      this.selected = "home";
+      this.$emit("namewasreset", this.selected);
+    },
   },
-
 };
 </script>
 

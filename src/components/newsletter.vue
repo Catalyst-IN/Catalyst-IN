@@ -1,17 +1,15 @@
 <template>
-    <div class="container">
-        <h3>
-            Subscribe to our newsletter
-        </h3>
-    </div>
+  <div class="container">
+    <h3>
+      Subscribe to our newsletter
+    </h3>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "newsletter"
-    }
+export default {
+  name: "newsletter",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
