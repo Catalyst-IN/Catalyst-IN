@@ -63,15 +63,18 @@
       <div>
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
-            <button class="btn bt-nav" type="button" @click="change1">
-              <a href="#">Who we are</a>
+            <button class="btn bt-nav" type="button" @click="change3('home')">
+              Home
             </button>
-            <button class="btn bt-nav" type="button" @click="change2">
-              <a href="#">What we do</a>
+            <button class="btn bt-nav" type="button" @click="change1('whoweare')">
+              Who we are
             </button>
-            <button class="btn bt-nav" type="button" @click="change3">
-              <a href="#events">Events</a>
+            <button class="btn bt-nav" type="button" @click="change2('whatwedo')">
+              What we do
             </button>
+            <a href="#events"><button class="btn bt-nav" type="button" @click="change3('home')">
+              Events
+            </button></a>
           </form>
         </nav>
       </div>
@@ -81,29 +84,23 @@
 
 <script>
 export default {
-  props: ["selected"],
   methods: {
-    change1() {
-      this.selected = "whoweare";
-      this.$emit("namewasreset", this.selected);
+    change1(item) {
+
+      this.$emit("namewasreset", item);
     },
-    change2() {
-      this.selected = "whatwedo";
-      this.$emit("namewasreset", this.selected);
+    change2(item) {
+      this.$emit("namewasreset", item);
     },
-    change3() {
-      this.selected = "events";
-      this.$emit("namewasreset", this.selected);
-    },
-    change4() {
-      this.selected = "home";
-      this.$emit("namewasreset", this.selected);
-    },
-  },
+    change3(item) {
+      this.$emit("namewasreset", item);
+    }
+  }
 };
 </script>
 
 <style scoped>
+
 img {
   cursor: pointer;
 }
@@ -145,10 +142,10 @@ ul {
 }
 
 .bt-nav {
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
   border: 1px solid #f8ba26;
   font-weight: bold;
 }
@@ -165,5 +162,9 @@ ul {
 
 .bt-nav a {
   color: black;
+}
+
+.btn:focus{
+  outline:none;
 }
 </style>

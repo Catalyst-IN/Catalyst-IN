@@ -4,7 +4,6 @@
 
     <div class="container">
       <appheader
-        :selected="selected"
         @namewasreset="selected = $event"
       ></appheader>
     </div>
@@ -12,16 +11,13 @@
 
     <!--    dyanamic components-->
 
-    <keep-alive>
       <component :is="selected"></component>
-    </keep-alive>
 
     <!--    footer-->
 
     <hr />
     <div class="container">
       <appfooter
-        :selected="selected"
         @namewasreset="selected = $event"
       ></appfooter>
     </div>
@@ -34,7 +30,6 @@ import footer from "./components/footer";
 import home from "./home";
 import whoweare from "./whoweare";
 import whatwedo from "./whatwedo";
-import Events from "./Events";
 import contact from "./components/contact";
 import privacy from "./components/privacy";
 import terms from "./components/terms";
@@ -51,7 +46,6 @@ export default {
     home: home,
     whoweare: whoweare,
     whatwedo: whatwedo,
-    events: Events,
     contact: contact,
     privacy: privacy,
     terms: terms,

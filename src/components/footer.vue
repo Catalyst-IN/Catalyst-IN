@@ -8,9 +8,9 @@
         <div class="fc-right">
           <div class="fc-nav">
             <ul>
-              <li><a @click="change1">PRIVACY POLICY</a></li>
-              <li><a @click="change2">TERMS OF USE</a></li>
-              <li><a @click="change4">CONTACT US</a></li>
+              <li><a @click="change1('privacy')">PRIVACY POLICY</a></li>
+              <li><a @click="change2('terms')">TERMS OF USE</a></li>
+              <li><a @click="change4('contact')">CONTACT US</a></li>
             </ul>
           </div>
           <div class="fc-mission">
@@ -35,19 +35,16 @@
 
 <script>
 export default {
-  props: ["selected"],
   methods: {
-    change1() {
-      this.selected = "privacy";
-      this.$emit("namewasreset", this.selected);
+    change1(item) {
+      this.$emit("namewasreset", item);
     },
-    change2() {
-      this.selected = "terms";
-      this.$emit("namewasreset", this.selected);
+    change2(item) {
+      this.$emit("namewasreset", item);
     },
-    change4() {
-      this.selected = "contact";
-      this.$emit("namewasreset", this.selected);
+    change4(item) {
+      
+      this.$emit("namewasreset", item);
     },
   },
 };
