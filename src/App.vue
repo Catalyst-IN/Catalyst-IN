@@ -36,7 +36,6 @@ import Events from "./Events";
 import contact from "./components/contact";
 import privacy from "./components/privacy";
 import terms from "./components/terms";
-import newsletter from "./components/newsletter";
 
 
 export default {
@@ -54,8 +53,7 @@ export default {
       events: Events,
       contact: contact,
       privacy: privacy,
-      terms: terms,
-      newsletter: newsletter
+      terms: terms
   },
 };
 </script>

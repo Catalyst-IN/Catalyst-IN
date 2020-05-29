@@ -2,6 +2,7 @@
   <div class="flexdisplay">
     <div>
       <img
+              @click="change4"
         src="../assets/logo.png"
         class="img-thumbnail logo"
         width="200"
@@ -62,9 +63,6 @@
       <div>
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
-            <button class="btn bt-nav" type="button" @click="change4">
-              <a href="#">Home</a>
-            </button>
             <button class="btn bt-nav" type="button" @click="change1">
               <a href="#">Who we are</a>
             </button>
@@ -107,6 +105,9 @@ export default {
 </script>
 
 <style scoped>
+  img{
+    cursor: pointer;
+  }
 .logo {
   margin: 10px;
   z-index: 10;

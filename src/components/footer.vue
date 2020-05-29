@@ -8,10 +8,9 @@
                 <div class="fc-right">
                     <div class="fc-nav">
                         <ul>
-                            <li><button @click="change1"><a >PRIVACY POLICY</a></button></li>
-                            <li><button @click="change2"><a >TERMS OF USE</a></button></li>
-                            <li><button @click="change3"><a >SUBSCRIBE TO THE NEWSLETTER</a></button></li>
-                            <li><button @click="change4"><a >CONTACT US</a></button></li>
+                            <li> <a @click="change1">PRIVACY POLICY</a></li>
+                            <li> <a @click="change2">TERMS OF USE</a></li>
+                            <li> <a @click="change4">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="fc-mission">
@@ -40,10 +39,6 @@
                 this.selected='terms';
                 this.$emit('namewasreset',this.selected);
             },
-            change3(){
-                this.selected='newsletter';
-                this.$emit('namewasreset',this.selected);
-            },
             change4(){
                 this.selected='contact';
                 this.$emit('namewasreset',this.selected);
@@ -53,6 +48,9 @@
 </script>
 
 <style scoped>
+    a{
+        cursor: pointer;
+    }
 .footer-img{
     max-width: 100%;
 }
