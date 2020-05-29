@@ -63,15 +63,18 @@
       <div>
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
+            <button class="btn bt-nav" type="button" @click="change3">
+              Home
+            </button>
             <button class="btn bt-nav" type="button" @click="change1">
-              <a href="#">Who we are</a>
+              Who we are
             </button>
             <button class="btn bt-nav" type="button" @click="change2">
-              <a href="#">What we do</a>
+              What we do
             </button>
-            <button class="btn bt-nav" type="button" @click="change3">
-              <a href="#events">Events</a>
-            </button>
+            <a href="#events"><button class="btn bt-nav" type="button" @click="change3">
+              Events
+            </button></a>
           </form>
         </nav>
       </div>
@@ -92,18 +95,15 @@ export default {
       this.$emit("namewasreset", this.selected);
     },
     change3() {
-      this.selected = "events";
-      this.$emit("namewasreset", this.selected);
-    },
-    change4() {
       this.selected = "home";
       this.$emit("namewasreset", this.selected);
-    },
-  },
+    }
+  }
 };
 </script>
 
 <style scoped>
+
 img {
   cursor: pointer;
 }
@@ -145,10 +145,10 @@ ul {
 }
 
 .bt-nav {
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 33px;
-  margin-right: 33px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
   border: 1px solid #f8ba26;
   font-weight: bold;
 }
@@ -165,5 +165,9 @@ ul {
 
 .bt-nav a {
   color: black;
+}
+
+.btn:focus{
+  outline:none;
 }
 </style>
