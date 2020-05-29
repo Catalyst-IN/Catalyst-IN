@@ -4,7 +4,6 @@
 
     <div class="container">
       <appheader
-        :selected="selected"
         @namewasreset="selected = $event"
       ></appheader>
     </div>
@@ -19,7 +18,6 @@
     <hr />
     <div class="container">
       <appfooter
-        :selected="selected"
         @namewasreset="selected = $event"
       ></appfooter>
     </div>
