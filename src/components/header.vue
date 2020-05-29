@@ -2,7 +2,7 @@
   <div class="flexdisplay">
     <div>
       <img
-              @click="change4"
+        @click="change4"
         src="../assets/logo.png"
         class="img-thumbnail logo"
         width="200"
@@ -81,33 +81,32 @@
 
 <script>
 export default {
-  props: ['selected'],
+  props: ["selected"],
   methods: {
-    change1(){
-      this.selected='whoweare';
-      this.$emit('namewasreset',this.selected);
+    change1() {
+      this.selected = "whoweare";
+      this.$emit("namewasreset", this.selected);
     },
-    change2(){
-      this.selected='whatwedo';
-      this.$emit('namewasreset',this.selected);
+    change2() {
+      this.selected = "whatwedo";
+      this.$emit("namewasreset", this.selected);
     },
-    change3(){
-      this.selected='events';
-      this.$emit('namewasreset',this.selected);
+    change3() {
+      this.selected = "events";
+      this.$emit("namewasreset", this.selected);
     },
-    change4(){
-      this.selected='home';
-      this.$emit('namewasreset',this.selected);
-    }
+    change4() {
+      this.selected = "home";
+      this.$emit("namewasreset", this.selected);
+    },
   },
-
 };
 </script>
 
 <style scoped>
-  img{
-    cursor: pointer;
-  }
+img {
+  cursor: pointer;
+}
 .logo {
   margin: 10px;
   z-index: 10;

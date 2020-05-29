@@ -1,28 +1,30 @@
 <template>
   <div>
-
-<!--    navbar/header-->
+    <!--    navbar/header-->
 
     <div class="container">
       <appheader
-              :selected="selected"
-              @namewasreset="selected=$event"></appheader>
+        :selected="selected"
+        @namewasreset="selected = $event"
+      ></appheader>
     </div>
     <hr class="navdivider" />
 
-<!--    dyanamic components-->
+    <!--    dyanamic components-->
 
     <keep-alive>
       <component :is="selected"></component>
     </keep-alive>
 
-<!--    footer-->
+    <!--    footer-->
 
-      <hr>
+    <hr />
     <div class="container">
-      <appfooter :selected="selected" @namewasreset="selected=$event"></appfooter>
+      <appfooter
+        :selected="selected"
+        @namewasreset="selected = $event"
+      ></appfooter>
     </div>
-
   </div>
 </template>
 
@@ -37,23 +39,22 @@ import contact from "./components/contact";
 import privacy from "./components/privacy";
 import terms from "./components/terms";
 
-
 export default {
   data: function () {
     return {
-      selected: 'home'
+      selected: "home",
     };
   },
   components: {
     appheader: header,
     appfooter: footer,
     home: home,
-      whoweare: whoweare,
-      whatwedo: whatwedo,
-      events: Events,
-      contact: contact,
-      privacy: privacy,
-      terms: terms
+    whoweare: whoweare,
+    whatwedo: whatwedo,
+    events: Events,
+    contact: contact,
+    privacy: privacy,
+    terms: terms,
   },
 };
 </script>
