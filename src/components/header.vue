@@ -14,47 +14,32 @@
         <ul id="icons">
           <a href="https://github.com/Catalyst-IN" target="_blank">
             <li>
-              <img
-                src="../assets/iconfinder_github_rounded_394187.png"
-                height="40px"
-                width="40px"
-              />
+              <i class="fab fa-github"></i>
             </li>
           </a>
           <a href="#" target="_blank">
             <li>
-              <img
-                src="../assets/iconfinder_1_Twitter_colored_svg_5296514.png"
-                height="40px"
-                width="40px"
-              />
+              <i class="fab fa-twitter"></i>
             </li>
           </a>
           <a href="https://www.linkedin.com/company/catalyst-smvd/" target="_blank">
             <li>
-              <img
-                src="../assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"
-                height="40px"
-                width="40px"
-              />
-            </li>
-          </a>
-          <a href="mailto:catalystorg@hotmail.com" target="_blank">
-            <li>
-              <img
-                src="../assets/iconfinder_008_Mail_183573.png"
-                height="40px"
-                width="40px"
-              />
+              <i class="fab fa-linkedin"></i>
             </li>
           </a>
           <a href="#" target="_blank">
             <li>
-              <img
-                src="../assets/iconfinder_1_Facebook_colored_svg_copy_5296499.png"
-                height="40px"
-                width="40px"
-              />
+              <i class="fab fa-facebook"></i>
+            </li>
+          </a>
+          <a href="https://discord.gg/EwpwF3s" target="_blank">
+            <li>
+              <i class="fab fa-discord"></i>
+            </li>
+          </a>
+          <a href="mailto:catalystorg@hotmail.com" target="_blank">
+            <li>
+              <i class="fas fa-envelope"></i>
             </li>
           </a>
         </ul>
@@ -120,6 +105,41 @@ img {
   display: inline-block;
   list-style-type: none;
   padding-right: 20px;
+}
+
+#icons li i{
+  font-size: 35px;
+  color: rgba(61, 55, 55, 0.808);
+}
+
+#icons a:nth-child(1) i:hover{
+  font-size: 35px;
+  color: #211F1F;
+}
+
+#icons a:nth-child(2) i:hover{
+  font-size: 35px;
+  color: #1DA1F2;
+}
+
+#icons a:nth-child(3) i:hover{
+  font-size: 35px;
+  color:  #0072b1;
+}
+
+#icons a:nth-child(4) i:hover{
+  font-size: 35px;
+  color: #3b5998;
+}
+
+#icons a:nth-child(5) i:hover{
+  font-size: 35px;
+  color: #738ADB;
+}
+
+#icons a:nth-child(6) i:hover{
+  font-size: 35px;
+  color: black;
 }
 
 ul {
