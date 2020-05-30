@@ -12,7 +12,7 @@
     <div>
       <div id="navbarText">
         <ul id="icons">
-          <a href="#">
+          <a href="https://github.com/Catalyst-IN" target="_blank">
             <li>
               <img
                 src="../assets/iconfinder_github_rounded_394187.png"
@@ -21,7 +21,7 @@
               />
             </li>
           </a>
-          <a href="#">
+          <a href="#" target="_blank">
             <li>
               <img
                 src="../assets/iconfinder_1_Twitter_colored_svg_5296514.png"
@@ -30,7 +30,7 @@
               />
             </li>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/company/catalyst-smvd/" target="_blank">
             <li>
               <img
                 src="../assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"
@@ -39,7 +39,7 @@
               />
             </li>
           </a>
-          <a href="#">
+          <a href="mailto:catalystorg@hotmail.com" target="_blank">
             <li>
               <img
                 src="../assets/iconfinder_008_Mail_183573.png"
@@ -48,7 +48,7 @@
               />
             </li>
           </a>
-          <a href="#">
+          <a href="#" target="_blank">
             <li>
               <img
                 src="../assets/iconfinder_1_Facebook_colored_svg_copy_5296499.png"
@@ -61,6 +61,7 @@
       </div>
       <hr id="divider" />
       <div>
+        
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
             <button class="btn bt-nav" type="button" @click="change3('home')">
@@ -76,6 +77,7 @@
               Events
             </button></a>
           </form>
+  
         </nav>
       </div>
     </div>
