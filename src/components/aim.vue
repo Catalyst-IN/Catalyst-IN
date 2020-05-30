@@ -16,7 +16,7 @@
     <div class="row">
       <div class="col-6 aim">
         <h2>A little more about Catalyst</h2>
-        <br />
+        <br>
         <p>
           The aim of the Catalyst network is to provide a platform to all
           beginner developers to come and work with us on live open source
