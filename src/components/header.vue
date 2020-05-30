@@ -30,10 +30,7 @@
               />
             </li>
           </a>
-          <a
-            href="https://www.linkedin.com/company/catalyst-smvd/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/company/catalyst-smvd/" target="_blank">
             <li>
               <img
                 src="../assets/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"
@@ -64,35 +61,23 @@
       </div>
       <hr id="divider" />
       <div>
+        
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
             <button class="btn bt-nav" type="button" @click="change3('home')">
               Home
             </button>
-            <button
-              class="btn bt-nav"
-              type="button"
-              @click="change1('whoweare')"
-            >
+            <button class="btn bt-nav" type="button" @click="change1('whoweare')">
               Who we are
             </button>
-            <button
-              class="btn bt-nav"
-              type="button"
-              @click="change2('whatwedo')"
-            >
+            <button class="btn bt-nav" type="button" @click="change2('whatwedo')">
               What we do
             </button>
-            <a href="#events"
-              ><button
-                class="btn bt-nav"
-                type="button"
-                @click="change3('home')"
-              >
-                Events
-              </button></a
-            >
+            <a href="#events"><button class="btn bt-nav" type="button" @click="change3('home')">
+              Events
+            </button></a>
           </form>
+  
         </nav>
       </div>
     </div>
@@ -103,6 +88,7 @@
 export default {
   methods: {
     change1(item) {
+
       this.$emit("namewasreset", item);
     },
     change2(item) {
@@ -110,12 +96,13 @@ export default {
     },
     change3(item) {
       this.$emit("namewasreset", item);
-    },
-  },
+    }
+  }
 };
 </script>
 
 <style scoped>
+
 img {
   cursor: pointer;
 }
@@ -179,7 +166,7 @@ ul {
   color: black;
 }
 
-.btn:focus {
-  outline: none;
+.btn:focus{
+  outline:none;
 }
 </style>
