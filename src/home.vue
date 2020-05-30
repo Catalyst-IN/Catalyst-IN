@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <div class="container">
       <appaim></appaim>
@@ -10,6 +11,29 @@
       <br />
       <appevents></appevents>
       <br /><br /><br />
+
+        <hr class="container" />
+        <div class="container">
+            <h3>Active projects</h3>
+            <br />
+            <appactive :info="activeprojects"></appactive>
+            <br /><br />
+        </div>
+        <div class="container">
+            <hr>
+            <h3>Contributors</h3>
+            <contri :slides="slides"></contri>
+        </div>
+        <br>
+        <div class="container">
+            <hr>
+            <h3>How Can I Support CATALYST</h3>
+            <br>
+            <appsupport></appsupport>
+            <br>
+        </div>
+
+
     </div>
     <hr class="container" />
     <div class="container">
@@ -27,10 +51,13 @@
 </template>
 
 <script>
-import aim from "./components/aim";
-import gridViewactive from "./components/gridViewactive";
-import contributor from "./components/contributor";
-import events from "./components/events";
+
+    import aim from "./components/aim";
+    import gridViewactive from "./components/gridViewactive";
+    import contributor from "./components/contributor";
+    import events from "./components/events";
+    import support from "./components/support";
+
 
 export default {
   data: function () {
@@ -52,6 +79,7 @@ export default {
           link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS",
           imageLink: "ios-app.png",
         },
+
         {
           title: "Website",
           subtitle: "OpenSourceEvents-Frontend",
@@ -59,6 +87,7 @@ export default {
             "This website contains a list of open source events and hackathons",
           link: "https://opensourcefrontend.netlify.app/",
           imageLink: "logo.png",
+
         },
       ],
     };
