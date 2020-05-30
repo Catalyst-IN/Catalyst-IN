@@ -4,11 +4,13 @@
         <div class="container">
             <appaim></appaim>
             <hr />
+            <br><br><br>
         </div>
         <div class="container" id="events">
             <h3>Events</h3>
             <br />
             <appevents></appevents>
+            <br><br><br>
         </div>
         <hr class="container" />
         <div class="container">
