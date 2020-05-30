@@ -22,6 +22,15 @@
             <h3>Contributors</h3>
             <contri :slides="slides"></contri>
         </div>
+        <br>
+        <div class="container">
+            <hr>
+            <h3>How Can I Support CATALYST</h3>
+            <br>
+            <appsupport></appsupport>
+            <br>
+        </div>
+
 
     </div>
 </template>
@@ -31,6 +40,7 @@
     import gridViewactive from "./components/gridViewactive";
     import contributor from "./components/contributor";
     import events from "./components/events";
+    import support from "./components/support";
 
     export default {
         data: function () {
@@ -68,6 +78,7 @@
             appactive: gridViewactive,
             contri: contributor,
             appevents: events,
+            appsupport: support
         },
     };
 </script>

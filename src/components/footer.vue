@@ -1,19 +1,19 @@
 <template>
   <div>
     <footer class="page-footer">
-      <div class="footer-content flexdisplay">
-        <div class="fc-left">
+      <div class="footer-content row">
+        <div class="fc-left col-lg-5 col-md-10 col-sm-6">
           <img src="../assets/logo.png" width="300" height="200" />
         </div>
-        <div class="fc-right">
-          <div class="fc-nav">
+        <div class="fc-right col-lg-5 col-md-10 col-sm-6 ">
+          <div class="fc-nav ">
             <ul>
               <li><a @click="change1('privacy')">PRIVACY POLICY</a></li>
               <li><a @click="change2('terms')">TERMS OF USE</a></li>
               <li><a @click="change4('contact')">CONTACT US</a></li>
             </ul>
           </div>
-          <div class="fc-mission">
+          <div class="fc-mission ">
             <p>
               We connect, inspire and guide youth in computing and organizations
               that view technology innovation as a strategic imperative.
@@ -65,12 +65,8 @@ a {
   margin-top: 5%;
 }
 
-.fc-right {
-  width: 50%;
-}
 
 .fc-left {
-  width: 50%;
   padding-left: 10%;
 }
 
