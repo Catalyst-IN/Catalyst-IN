@@ -17,7 +17,7 @@
               <i class="fab fa-github"></i>
             </li>
           </a>
-          <a href="#" target="_blank">
+          <a href="https://twitter.com/Catalyst_IND" target="_blank">
             <li>
               <i class="fab fa-twitter"></i>
             </li>
@@ -25,11 +25,6 @@
           <a href="https://www.linkedin.com/company/catalyst-smvd/" target="_blank">
             <li>
               <i class="fab fa-linkedin"></i>
-            </li>
-          </a>
-          <a href="#" target="_blank">
-            <li>
-              <i class="fab fa-facebook"></i>
             </li>
           </a>
           <a href="https://discord.gg/EwpwF3s" target="_blank">
@@ -45,7 +40,7 @@
         </ul>
       </div>
       <hr id="divider" />
-      <div>
+      <div class="header-nav">
         
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
@@ -127,17 +122,14 @@ img {
   color:  #0072b1;
 }
 
-#icons a:nth-child(4) i:hover{
-  font-size: 35px;
-  color: #3b5998;
-}
 
-#icons a:nth-child(5) i:hover{
+
+#icons a:nth-child(4) i:hover{
   font-size: 35px;
   color: #738ADB;
 }
 
-#icons a:nth-child(6) i:hover{
+#icons a:nth-child(5) i:hover{
   font-size: 35px;
   color: black;
 }
@@ -188,5 +180,55 @@ ul {
 
 .btn:focus{
   outline:none;
+}
+
+@media (max-width: 1200px) {
+  #navbarText {
+  width: 550px;
+}
+
+#icons li i{
+  font-size: 25px;
+}
+
+.bt-nav {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+  
+}
+
+@media (max-width:1000px){
+  .bt-nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+}
+
+@media (max-width:600px){
+  #navbarText {
+  width: 200px;
+}
+#icons li i{
+  font-size: 15px;
+}
+ .header-nav{
+   width:300px;
+ }
+
+  .bt-nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#divider{
+  width: 100px;
+}
 }
 </style>

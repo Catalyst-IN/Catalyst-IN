@@ -70,7 +70,15 @@
                         link: "https://opensourcefrontend.netlify.app/",
                         imageLink: "logo.png",
                     },
-                ],
+                    {
+                        title: "Collection of events",
+                        subtitle: "Open-Source-Events",
+                        body:
+                            "This is a collection of Open Source events and Hackathons. Students always forget the dates of Open Source event and recall after the date is over to fill the form.",
+                        link: "https://github.com/Catalyst-IN/Open-Source-Events",
+                        imageLink: "open.png",
+                    },
+                ]
             };
         },
         components: {
