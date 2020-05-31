@@ -4,7 +4,7 @@
       <div class="design">
         <img src="../assets/color-bar.png" class="footer-img" />
       </div>
-      <div class="slogan col-5">
+      <div class="slogan col-lg-5 col-sm-10">
         <p>
           <span>Young Imagination Network!</span>
           <br />
@@ -87,5 +87,22 @@ export default {};
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+}
+
+@media (max-width:600px){
+  .design img{
+    width:300px
+  }
+
+  #donate {
+
+  width: 150px;
+  
+}
+
+.slogan span {
+  font-size: 15px;
+
+}
 }
 </style>

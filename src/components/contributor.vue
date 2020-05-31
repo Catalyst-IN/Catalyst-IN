@@ -5,9 +5,9 @@
         <img class="img__img" src="../assets/anubhav.jpg" />
         <p class="img__description">
           formal website catalyst <br />
-          IOS app for catalyst
+          IOS app for catalyst<br>
+         <span class="centered"> Anubhav Singh <br />Admin</span>
         </p>
-        <div class="centered">Anubhav Singh <br />Admin</div>
       </div>
     </slide>
     <slide :index="1" class="team">
@@ -15,9 +15,9 @@
         <img class="img__img" src="../assets/pushpinder.jpg" />
         <p class="img__description">
           formal website catalyst <br />
-          IOS app for catalyst
+          IOS app for catalyst<br>
+         <span class="centered"> Pushpinder Pal <br>Admin</span>
         </p>
-        <div class="centered">Pushpinder Pal <br />Admin</div>
       </div>
     </slide>
     <slide :index="2" class="team">
@@ -26,9 +26,9 @@
         <p class="img__description">
           formal website catalyst <br />
           frontend website catalyst <br />
-          chat bot
+          chat bot<br>
+          <span class="centered">Aryaman Puri <br />Admin</span>
         </p>
-        <div class="centered">Aryaman Puri <br />Admin</div>
       </div>
     </slide>
     <slide :index="3" class="team">
@@ -36,9 +36,9 @@
         <img class="img__img" src="../assets/aashim.jpg" />
         <p class="img__description">
           formal website catalyst <br />
-          frontend website catalyst
+          frontend website catalyst<br>
+         <span class="centered"> Aashim Garg <br />Mentor</span>
         </p>
-        <div class="centered">Aashim Garg <br />Mentor</div>
       </div>
     </slide>
     <slide :index="4" class="team">
@@ -46,9 +46,9 @@
         <img class="img__img" src="../assets/aman.jpg" />
         <p class="img__description">
           formal website catalyst <br />
-          frontend website catalyst
+          frontend website catalyst<br>
+         <span class="centered"> Aman Kumar <br />Mentor</span>
         </p>
-        <div class="centered">Aman Kumar <br />Mentor</div>
       </div>
     </slide>
     <slide :index="5" class="team">
@@ -57,8 +57,8 @@
         <p class="img__description">
           formal website catalyst <br />
           frontend website catalyst
+         <span class="centered"> Hrishikesh Agarwal <br />Member</span>
         </p>
-        <div class="centered">Hrishikesh Agarwal <br />Member</div>
       </div>
     </slide>
     <slide :index="6" class="team">
@@ -67,15 +67,17 @@
         <p class="img__description">
           formal website catalyst <br />
           frontend website catalyst
+         <span class="centered"> Vinayak Sharma <br />Member</span>
         </p>
-        <div class="centered">Vinayak Sharma <br />Member</div>
       </div>
     </slide>
     <slide :index="7" class="team">
       <div class="img__wrap">
         <img class="img__img" src="../assets/bindusar.jpg" />
-        <p class="img__description">frontend website catalyst</p>
-        <div class="centered">Bindusar Maurya <br />Contributor</div>
+        <p class="img__description">frontend website catalyst
+          <br>
+         <span class="centered"> Bindusar Maurya <br />Contributor</span>
+        </p>
       </div>
     </slide>
     <slide :index="8" class="team">
@@ -83,9 +85,10 @@
         <img class="img__img" src="../assets/Sapna.jpg" />
         <p class="img__description">
           formal website catalyst <br />
-          frontend website catalyst
+          frontend website catalyst<br>
+         <span class="centered"> Hari Sapna Nair <br />Contributor</span>
+
         </p>
-        <div class="centered">Hari Sapna Nair <br />Contributor</div>
       </div>
     </slide>
   </carousel-3d>
@@ -114,17 +117,7 @@ img:hover {
   opacity: 60%;
 }
 .centered {
-  text-align: center;
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "Ubuntu", sans-serif;
-  font-size: 16px;
-  font-weight: bolder;
-  background-color: #ffd633;
-  opacity: 80%;
-  border-radius: 5px;
+  color:black
 }
 
 * {
