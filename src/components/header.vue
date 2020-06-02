@@ -22,7 +22,10 @@
               <i class="fab fa-twitter"></i>
             </li>
           </a>
-          <a href="https://www.linkedin.com/company/catalyst-smvd/" target="_blank">
+          <a
+            href="https://www.linkedin.com/company/catalyst-smvd/"
+            target="_blank"
+          >
             <li>
               <i class="fab fa-linkedin"></i>
             </li>
@@ -41,23 +44,35 @@
       </div>
       <hr id="divider" />
       <div class="header-nav">
-        
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
             <button class="btn bt-nav" type="button" @click="change3('home')">
               Home
             </button>
-            <button class="btn bt-nav" type="button" @click="change1('whoweare')">
+            <button
+              class="btn bt-nav"
+              type="button"
+              @click="change1('whoweare')"
+            >
               Who we are
             </button>
-            <button class="btn bt-nav" type="button" @click="change2('whatwedo')">
+            <button
+              class="btn bt-nav"
+              type="button"
+              @click="change2('whatwedo')"
+            >
               What we do
             </button>
-            <a href="#events"><button class="btn bt-nav" type="button" @click="change3('home')">
-              Events
-            </button></a>
+            <a href="#events"
+              ><button
+                class="btn bt-nav"
+                type="button"
+                @click="change3('home')"
+              >
+                Events
+              </button></a
+            >
           </form>
-  
         </nav>
       </div>
     </div>
@@ -68,7 +83,6 @@
 export default {
   methods: {
     change1(item) {
-
       this.$emit("namewasreset", item);
     },
     change2(item) {
@@ -76,13 +90,12 @@ export default {
     },
     change3(item) {
       this.$emit("namewasreset", item);
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style scoped>
-
 img {
   cursor: pointer;
 }
@@ -102,34 +115,32 @@ img {
   padding-right: 20px;
 }
 
-#icons li i{
+#icons li i {
   font-size: 35px;
   color: rgba(61, 55, 55, 0.808);
 }
 
-#icons a:nth-child(1) i:hover{
+#icons a:nth-child(1) i:hover {
   font-size: 35px;
-  color: #211F1F;
+  color: #211f1f;
 }
 
-#icons a:nth-child(2) i:hover{
+#icons a:nth-child(2) i:hover {
   font-size: 35px;
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
-#icons a:nth-child(3) i:hover{
+#icons a:nth-child(3) i:hover {
   font-size: 35px;
-  color:  #0072b1;
+  color: #0072b1;
 }
 
-
-
-#icons a:nth-child(4) i:hover{
+#icons a:nth-child(4) i:hover {
   font-size: 35px;
-  color: #738ADB;
+  color: #738adb;
 }
 
-#icons a:nth-child(5) i:hover{
+#icons a:nth-child(5) i:hover {
   font-size: 35px;
   color: black;
 }
@@ -178,57 +189,56 @@ ul {
   color: black;
 }
 
-.btn:focus{
-  outline:none;
+.btn:focus {
+  outline: none;
 }
 
 @media (max-width: 1200px) {
   #navbarText {
-  width: 550px;
-}
+    width: 550px;
+  }
 
-#icons li i{
-  font-size: 25px;
-}
+  #icons li i {
+    font-size: 25px;
+  }
 
-.bt-nav {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-  
-}
-
-@media (max-width:1000px){
   .bt-nav {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
-@media (max-width:600px){
+@media (max-width: 1000px) {
+  .bt-nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 600px) {
   #navbarText {
-  width: 200px;
-}
-#icons li i{
-  font-size: 15px;
-}
- .header-nav{
-   width:300px;
- }
+    width: 200px;
+  }
+  #icons li i {
+    font-size: 15px;
+  }
+  .header-nav {
+    width: 300px;
+  }
 
   .bt-nav {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-#divider{
-  width: 100px;
-}
+  #divider {
+    width: 100px;
+  }
 }
 </style>
