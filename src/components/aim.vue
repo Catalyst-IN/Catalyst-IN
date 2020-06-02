@@ -76,7 +76,7 @@ export default {};
 #donate {
   background-color: rgb(235, 61, 30);
   color: white;
-  width: 300px;
+  width: 390px;
   font-weight: bold;
   border-radius: 10px;
   border: 1px solid rgb(235, 61, 30);
