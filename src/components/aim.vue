@@ -14,7 +14,7 @@
     </div>
     <br />
     <div class="row">
-      <div class="col-6 aim">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 aim">
         <h2>A little more about Catalyst</h2>
         <br>
         <p>
@@ -27,7 +27,7 @@
           with you to help make your ideas reality.
         </p>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
         <img src="../assets/open-source.png" height="100%" width="100%" />
       </div>
     </div>
