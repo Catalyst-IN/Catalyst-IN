@@ -92,7 +92,7 @@
 
           <input
             type="submit"
-            @click="issubmit"
+            @click.prevent="issubmit"
             value="Send"
             class="btn btn-primary"
           />
