@@ -26,6 +26,7 @@
                   id="name"
                   name="name"
                   class="form-control"
+                  v-model="name"
                   required
                 />
                 <label for="name" class="">Your name</label>
@@ -41,6 +42,7 @@
                   id="email"
                   name="email"
                   class="form-control"
+                  v-model="email"
                   required
                 />
                 <label for="email" class="">Your email</label>
@@ -59,6 +61,7 @@
                   id="subject"
                   name="subject"
                   class="form-control"
+                  v-model="subject"
                   required
                 />
                 <label for="subject" class="">Subject</label>
@@ -78,6 +81,7 @@
                   name="message"
                   rows="2"
                   class="form-control md-textarea"
+                  v-model="querymessage"
                   required
                 ></textarea>
                 <label for="message">Your message</label>
@@ -86,14 +90,10 @@
           </div>
           <!--Grid row-->
 
-          <div class="text-center text-md-left">
-            <a @click.stop="issubmit"
-              ><button class="btn btn-primary" type="submit">Send</button></a
-            >
-          </div>
+           <input type="submit" @click="issubmit" value="Send" class="btn btn-primary">
         </form>
         <div class="status" v-show="submitted">
-          Your response has been submitted
+          Your response has been submitted.
         </div>
       </div>
       <!--Grid column-->
@@ -128,13 +128,19 @@ export default {
   data: function () {
     return {
       submitted: false,
+      name: null,
+      email: null,
+      subject: null,
+      querymessage: null
     };
   },
   methods: {
     issubmit: function () {
+      if(this.name!==null && this.email!==null && this.subject!==null && this.querymessage!==null)
       this.submitted = true;
-    },
-  },
+    }
+     
+  }
 };
 </script>
 
