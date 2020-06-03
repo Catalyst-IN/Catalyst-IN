@@ -14,9 +14,9 @@
     </div>
     <br />
     <div class="row">
-      <div class="col-6 aim">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 aim">
         <h2>A little more about Catalyst</h2>
-        <br>
+        <br />
         <p>
           The aim of the Catalyst network is to provide a platform to all
           beginner developers to come and work with us on live open source
@@ -27,7 +27,7 @@
           with you to help make your ideas reality.
         </p>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
         <img src="../assets/open-source.png" height="100%" width="100%" />
       </div>
     </div>
@@ -89,20 +89,17 @@ export default {};
   font-weight: bold;
 }
 
-@media (max-width:600px){
-  .design img{
-    width:300px
+@media (max-width: 600px) {
+  .design img {
+    width: 300px;
   }
 
   #donate {
+    width: 150px;
+  }
 
-  width: 150px;
-  
-}
-
-.slogan span {
-  font-size: 15px;
-
-}
+  .slogan span {
+    font-size: 15px;
+  }
 }
 </style>
