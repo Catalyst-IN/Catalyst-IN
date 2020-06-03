@@ -40,7 +40,7 @@ button a {
   color: white;
 }
 
-button a:hover{
+button a:hover {
   text-decoration: none;
 }
 </style>

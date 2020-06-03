@@ -90,7 +90,12 @@
           </div>
           <!--Grid row-->
 
-           <input type="submit" @click="issubmit" value="Send" class="btn btn-primary">
+          <input
+            type="submit"
+            @click="issubmit"
+            value="Send"
+            class="btn btn-primary"
+          />
         </form>
         <div class="status" v-show="submitted">
           Your response has been submitted.
@@ -131,16 +136,20 @@ export default {
       name: null,
       email: null,
       subject: null,
-      querymessage: null
+      querymessage: null,
     };
   },
   methods: {
     issubmit: function () {
-      if(this.name!==null && this.email!==null && this.subject!==null && this.querymessage!==null)
-      this.submitted = true;
-    }
-     
-  }
+      if (
+        this.name !== null &&
+        this.email !== null &&
+        this.subject !== null &&
+        this.querymessage !== null
+      )
+        this.submitted = true;
+    },
+  },
 };
 </script>
 
