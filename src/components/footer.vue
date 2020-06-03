@@ -5,15 +5,15 @@
         <div class="fc-left col-lg-5 col-md-10 col-sm-6">
           <img src="../assets/logo.png" width="300" height="200" />
         </div>
-        <div class="fc-right col-lg-5 col-md-10 col-sm-6 ">
-          <div class="fc-nav ">
+        <div class="fc-right col-lg-5 col-md-10 col-sm-6">
+          <div class="fc-nav">
             <ul>
               <li><a @click="change1('privacy')">PRIVACY POLICY</a></li>
               <li><a @click="change2('terms')">TERMS OF USE</a></li>
               <li><a @click="change4('contact')">CONTACT US</a></li>
             </ul>
           </div>
-          <div class="fc-mission ">
+          <div class="fc-mission">
             <p>
               We connect, inspire and guide youth in computing and organizations
               that view technology innovation as a strategic imperative.
@@ -43,7 +43,6 @@ export default {
       this.$emit("namewasreset", item);
     },
     change4(item) {
-      
       this.$emit("namewasreset", item);
     },
   },
@@ -64,7 +63,6 @@ a {
   margin: 0 auto;
   margin-top: 5%;
 }
-
 
 .fc-left {
   padding-left: 10%;
