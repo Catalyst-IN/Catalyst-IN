@@ -7,6 +7,21 @@
           formal website catalyst <br />
           IOS app for catalyst<br />
           <span class="centered"> Anubhav Singh <br />Admin</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/anubhav-singh-27512a167/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/anubhavsingh16"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -17,6 +32,21 @@
           formal website catalyst <br />
           IOS app for catalyst<br />
           <span class="centered"> Pushpinder Pal <br />Admin</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/pushpinderpalsingh/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/pushpinderpalsingh"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -26,8 +56,22 @@
         <p class="img__description">
           formal website catalyst <br />
           frontend website catalyst <br />
-          chat bot<br />
           <span class="centered">Aryaman Puri <br />Admin</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/aryamanpuri/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/aryamanpuri"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -38,6 +82,18 @@
           formal website catalyst <br />
           frontend website catalyst<br />
           <span class="centered"> Aashim Garg <br />Mentor</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/aashim-garg-370104198/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/aashimgarg" alt="github" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -48,6 +104,21 @@
           formal website catalyst <br />
           frontend website catalyst<br />
           <span class="centered"> Aman Kumar <br />Mentor</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/aman-kumar-6b31b9127/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/Amankumar29"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -58,6 +129,21 @@
           formal website catalyst <br />
           frontend website catalyst
           <span class="centered"> Hrishikesh Agarwal <br />Member</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/hrishikesh-agarwal-794801195/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/codetheorem"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -68,6 +154,21 @@
           formal website catalyst <br />
           frontend website catalyst
           <span class="centered"> Vinayak Sharma <br />Member</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/vinayak-sharma-141096193/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/vinayaksh42"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -78,6 +179,21 @@
           frontend website catalyst
           <br />
           <span class="centered"> Bindusar Maurya <br />Contributor</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/bindusar-maurya-5542aa19b/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/Bindusar1212"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -85,9 +201,23 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/Sapna.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
           frontend website catalyst<br />
           <span class="centered"> Hari Sapna Nair <br />Contributor</span>
+          <br />
+          <span class="social-icons">
+            <a
+              href="https://github.com/Sapna2001"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sapna2001/"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </span>
         </p>
       </div>
     </slide>
@@ -149,5 +279,10 @@ img:hover {
   visibility: visible;
   text-align: center;
   opacity: 1;
+}
+
+.social-icons a i {
+  padding: 10px;
+  color: rgb(75, 73, 73);
 }
 </style>
