@@ -1,6 +1,6 @@
 <template>
-  <div class="flexdisplay">
-    <div>
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6">
       <img
         @click="change3('home')"
         src="../assets/logo.png"
@@ -9,7 +9,7 @@
         height="200"
       />
     </div>
-    <div>
+    <div class="col-lg-9 col-md-9 col-sm-6">
       <div id="iconText">
         <ul id="icons">
           <a href="https://github.com/Catalyst-IN" target="_blank">
@@ -114,7 +114,7 @@ img {
   cursor: pointer;
 }
 .logo {
-  margin: 10px;
+  margin-top: 10px;
   z-index: 10;
 }
 .header {
@@ -181,10 +181,10 @@ img {
 }
 
 .bt-nav {
-  padding-left: 60px;
-  padding-right: 60px;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
   border: 1px solid #f8ba26;
   font-weight: bold;
 }
@@ -217,42 +217,10 @@ img {
   }
 
   .bt-nav {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-left: 5px;
     margin-right: 5px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .bt-nav {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-}
-
-@media (max-width: 600px) {
-  #iconText {
-    width: 200px;
-  }
-  #icons li i {
-    font-size: 15px;
-  }
-  .header-nav {
-    width: 300px;
-  }
-
-  .bt-nav {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  #divider {
-    width: 100px;
   }
 }
 </style>
