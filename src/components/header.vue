@@ -2,7 +2,7 @@
   <div class="flexdisplay">
     <div>
       <img
-        @click="change4"
+        @click="change3('home')"
         src="../assets/logo.png"
         class="img-thumbnail logo"
         width="200"
@@ -10,7 +10,7 @@
       />
     </div>
     <div>
-      <div id="navbarText">
+      <div id="iconText">
         <ul id="icons">
           <a href="https://github.com/Catalyst-IN" target="_blank">
             <li>
@@ -44,26 +44,37 @@
       </div>
       <hr id="divider" />
       <div class="header-nav">
-        <nav class="navbar navbar-light bg-light">
-          <form class="form-inline">
-            <button class="btn bt-nav" type="button" @click="change3('home')">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <button class="btn bt-nav" type="button" @click="change3('home')">
               Home
             </button>
-            <button
+      </li>
+      <li class="nav-item">
+         <button
               class="btn bt-nav"
               type="button"
               @click="change1('whoweare')"
             >
               Who we are
             </button>
-            <button
+      </li>
+      <li class="nav-item">
+        <button
               class="btn bt-nav"
               type="button"
               @click="change2('whatwedo')"
             >
               What we do
             </button>
-            <a href="#events"
+      </li>
+      <li class="nav-item">
+        <a href="#events"
               ><button
                 class="btn bt-nav"
                 type="button"
@@ -72,8 +83,11 @@
                 Events
               </button></a
             >
-          </form>
-        </nav>
+      </li>
+
+    </ul>
+  </div>
+</nav>
       </div>
     </div>
   </div>
@@ -145,7 +159,7 @@ img {
   color: black;
 }
 
-ul {
+#icons {
   padding-left: 60%;
   padding-top: 5%;
 }
@@ -154,7 +168,7 @@ ul {
   display: flex;
 }
 
-#navbarText {
+#iconText {
   float: right;
   width: 800px;
   height: 100px;
@@ -194,7 +208,7 @@ ul {
 }
 
 @media (max-width: 1200px) {
-  #navbarText {
+  #iconText {
     width: 550px;
   }
 
@@ -220,7 +234,7 @@ ul {
 }
 
 @media (max-width: 600px) {
-  #navbarText {
+  #iconText {
     width: 200px;
   }
   #icons li i {
