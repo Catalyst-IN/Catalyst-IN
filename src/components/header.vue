@@ -146,27 +146,22 @@ img {
 }
 
 #icons a:nth-child(1) i:hover {
-  font-size: 35px;
   color: #211f1f;
 }
 
 #icons a:nth-child(2) i:hover {
-  font-size: 35px;
   color: #1da1f2;
 }
 
 #icons a:nth-child(3) i:hover {
-  font-size: 35px;
   color: #0072b1;
 }
 
 #icons a:nth-child(4) i:hover {
-  font-size: 35px;
   color: #738adb;
 }
 
 #icons a:nth-child(5) i:hover {
-  font-size: 35px;
   color: black;
 }
 
@@ -226,7 +221,6 @@ img {
   #icons li i {
     font-size: 25px;
   }
-
   .bt-nav {
     padding-left: 40px;
     padding-right: 40px;
