@@ -4,8 +4,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/anubhav.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
-          IOS app for catalyst<br />
+          <br /><br />
           <span class="centered"> Anubhav Singh <br />Admin</span>
           <br />
           <span class="social-icons">
@@ -29,8 +28,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/pushpinder.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
-          IOS app for catalyst<br />
+          <br /><br />
           <span class="centered"> Pushpinder Pal <br />Admin</span>
           <br />
           <span class="social-icons">
@@ -54,8 +52,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/aryaman.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
-          frontend website catalyst <br />
+          <br /><br />
           <span class="centered">Aryaman Puri <br />Admin</span>
           <br />
           <span class="social-icons">
@@ -79,8 +76,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/aashim.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
-          frontend website catalyst<br />
+          <br /><br />
           <span class="centered"> Aashim Garg <br />Mentor</span>
           <br />
           <span class="social-icons">
@@ -101,8 +97,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/aman.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
-          frontend website catalyst<br />
+          <br /><br />
           <span class="centered"> Aman Kumar <br />Mentor</span>
           <br />
           <span class="social-icons">
@@ -126,8 +121,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/hrishikesh.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
-          frontend website catalyst
+          <br /><br />
           <span class="centered"> Hrishikesh Agarwal <br />Member</span>
           <br />
           <span class="social-icons">
@@ -151,8 +145,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/vinayak.jpg" />
         <p class="img__description">
-          formal website catalyst <br />
-          frontend website catalyst
+          <br /><br />
           <span class="centered"> Vinayak Sharma <br />Member</span>
           <br />
           <span class="social-icons">
@@ -176,8 +169,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/bindusar.jpg" />
         <p class="img__description">
-          frontend website catalyst
-          <br />
+          <br /><br />
           <span class="centered"> Bindusar Maurya <br />Contributor</span>
           <br />
           <span class="social-icons">
@@ -201,7 +193,7 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/Sapna.jpg" />
         <p class="img__description">
-          frontend website catalyst<br />
+          <br /><br />
           <span class="centered"> Hari Sapna Nair <br />Contributor</span>
           <br />
           <span class="social-icons">

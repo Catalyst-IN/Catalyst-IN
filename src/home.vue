@@ -18,7 +18,7 @@
     </div>
     <div class="container">
       <hr />
-      <h3>Contributors</h3>
+      <h3>Core Members</h3>
       <contri :slides="slides"></contri>
     </div>
     <br />
