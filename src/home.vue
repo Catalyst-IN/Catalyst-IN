@@ -79,6 +79,14 @@ export default {
           link: "https://github.com/Catalyst-IN/Open-Source-Events",
           imageLink: "open.png",
         },
+        {
+          title: "Awesome 10-20",
+          subtitle: "list of resources",
+          body:
+            "The goal of this project/platform is to provide a very interactive space/platform for information seekers",
+          link: "https://github.com/Catalyst-IN/Awesome10-20_Database",
+          imageLink: "1020.png",
+        },
       ],
     };
   },
