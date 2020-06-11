@@ -80,7 +80,7 @@
         <img class="img__img" src="../assets/aashim.jpg" />
         <p class="img__description">
           <br /><br />
-          <span class="centered"> Aashim Garg <br />Mentor</span>
+          <span class="centered"> Aashim Garg <br />Web Mentor</span>
           <br />
           <span class="social-icons">
             <a
@@ -101,7 +101,7 @@
         <img class="img__img" src="../assets/aman.jpg" />
         <p class="img__description">
           <br /><br />
-          <span class="centered"> Aman Kumar <br />Mentor</span>
+          <span class="centered"> Aman Kumar <br />Web Mentor</span>
           <br />
           <span class="social-icons">
             <a
