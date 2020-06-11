@@ -4,8 +4,11 @@
             <div class="img__wrap">
                 <img class="img__img" src="../assets/anubhav.jpg" />
                 <p class="img__description">
-                    <br /><br />
-                    <span class="centered"> Anubhav Singh <br />Admin</span>
+                    <br />
+                    <span class="centered">
+                        Anubhav Singh <br />Admin <br />
+                        ios developer(GSoC'20 @amahi)</span
+                    >
                     <br />
                     <span class="social-icons">
                         <a
