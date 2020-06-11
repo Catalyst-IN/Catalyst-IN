@@ -125,7 +125,7 @@
         <img class="img__img" src="../assets/hrishikesh.jpg" />
         <p class="img__description">
           <br /><br />
-          <span class="centered"> Hrishikesh Agarwal <br />Member</span>
+          <span class="centered"> Hrishikesh Agarwal <br />Maintainer</span>
           <br />
           <span class="social-icons">
             <a
@@ -149,7 +149,7 @@
         <img class="img__img" src="../assets/vinayak.jpg" />
         <p class="img__description">
           <br /><br />
-          <span class="centered"> Vinayak Sharma <br />Member</span>
+          <span class="centered"> Vinayak Sharma <br />Maintainer</span>
           <br />
           <span class="social-icons">
             <a
