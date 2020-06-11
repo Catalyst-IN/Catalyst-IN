@@ -4,8 +4,11 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/anubhav.jpg" />
         <p class="img__description">
-          <br /><br />
-          <span class="centered"> Anubhav Singh <br />Admin</span>
+          <br />
+          <span class="centered">
+            Anubhav Singh <br />Admin <br />
+            ios developer(GSoC'20 @amahi)</span
+          >
           <br />
           <span class="social-icons">
             <a
@@ -44,26 +47,26 @@
               target="_blank"
               ><i class="fab fa-github-square"></i
             ></a>
+            <a href="https://technicalnow.in/" alt="Blog" target="_blank"
+              ><i class="fa fa-pencil-square-o" aria-hidden="true"></i
+            ></a>
           </span>
         </p>
       </div>
     </slide>
     <slide :index="2" class="team">
       <div class="img__wrap">
-        <img class="img__img" src="../assets/aryaman.jpg" />
+        <img class="img__img" src="../assets/arnav.png" />
         <p class="img__description">
           <br /><br />
-          <span class="centered">Aryaman Puri <br />Admin</span>
+          <span class="centered">Arnav Balyan <br />ML Mentor</span>
           <br />
           <span class="social-icons">
-            <a
-              href="https://www.linkedin.com/in/aryamanpuri/"
-              alt="linkedin"
-              target="_blank"
+            <a href="" alt="linkedin" target="_blank"
               ><i class="fab fa-linkedin"></i
             ></a>
             <a
-              href="https://github.com/aryamanpuri"
+              href="https://github.com/ArnavBalyan"
               alt="github"
               target="_blank"
               ><i class="fab fa-github-square"></i
@@ -157,54 +160,6 @@
             ></a>
             <a
               href="https://github.com/vinayaksh42"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-github-square"></i
-            ></a>
-          </span>
-        </p>
-      </div>
-    </slide>
-    <slide :index="7" class="team">
-      <div class="img__wrap">
-        <img class="img__img" src="../assets/bindusar.jpg" />
-        <p class="img__description">
-          <br /><br />
-          <span class="centered"> Bindusar Maurya <br />Contributor</span>
-          <br />
-          <span class="social-icons">
-            <a
-              href="https://www.linkedin.com/in/bindusar-maurya-5542aa19b/"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://github.com/Bindusar1212"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-github-square"></i
-            ></a>
-          </span>
-        </p>
-      </div>
-    </slide>
-    <slide :index="8" class="team">
-      <div class="img__wrap">
-        <img class="img__img" src="../assets/Sapna.jpg" />
-        <p class="img__description">
-          <br /><br />
-          <span class="centered"> Hari Sapna Nair <br />Contributor</span>
-          <br />
-          <span class="social-icons">
-            <a
-              href="https://github.com/Sapna2001"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/sapna2001/"
               alt="github"
               target="_blank"
               ><i class="fab fa-github-square"></i
