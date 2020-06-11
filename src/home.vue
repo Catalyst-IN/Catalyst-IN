@@ -15,6 +15,10 @@
             <br />
             <appactive :info="activeprojects"></appactive>
             <br /><br />
+            <button class="btn btn-info" style="float: right;">
+                <a href="https://github.com/Catalyst-IN">See More..</a>
+            </button>
+            <br /><br />
         </div>
         <div class="container">
             <hr />
@@ -90,6 +94,13 @@ export default {
 </script>
 
 <style scoped>
+button a {
+    color: white;
+}
+
+button a:hover {
+    text-decoration: none;
+}
 h3 {
     color: black;
     font-family: 'Ubuntu', sans-serif;
