@@ -2,15 +2,21 @@
   <div>
     <footer class="page-footer">
       <div class="footer-content row">
-        <div class="fc-left col-lg-5 col-md-10 col-sm-6">
+        <div class="fc-left col-lg-6 col-md-6 col-sm-12">
           <img src="../assets/logo.png" width="300" height="200" />
         </div>
-        <div class="fc-right col-lg-5 col-md-10 col-sm-6">
+        <div class="fc-right col-lg-6 col-md-6 col-sm-12">
           <div class="fc-nav">
             <ul>
-              <li><a @click="change1('privacy')">PRIVACY POLICY</a></li>
-              <li><a @click="change2('terms')">TERMS OF USE</a></li>
-              <li><a @click="change4('contact')">CONTACT US</a></li>
+              <li>
+                <a @click="change1('privacy')">PRIVACY POLICY</a>
+              </li>
+              <li>
+                <a @click="change2('terms')">TERMS OF USE</a>
+              </li>
+              <li>
+                <a @click="change4('contact')">CONTACT US</a>
+              </li>
             </ul>
           </div>
           <div class="fc-mission">
