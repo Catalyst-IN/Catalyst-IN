@@ -58,6 +58,12 @@ a:hover {
     border-bottom: 3px solid #54bceb;
 }
 .support-box {
-    margin-left: 10vw;
+    margin-left: 150px;
+}
+
+@media (max-width: 1000px) {
+    .support-box {
+        margin-left: 10vw;
+    }
 }
 </style>
