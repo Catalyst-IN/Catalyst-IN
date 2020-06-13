@@ -10,6 +10,7 @@
           <slot name="body" class="content"></slot>
           <br />
           <slot name="link"></slot>
+          <br /><br />
         </div>
       </div>
     </div>

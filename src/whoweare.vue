@@ -4,7 +4,6 @@
     <h1><i class="fas fa-users"></i> Who we are</h1>
     <br />
     <div class="row">
-      <div class="col-sm"></div>
       <div class="col-sm">
         <p>
           An organization of young tech enthusiasts from all over India, our
@@ -16,7 +15,6 @@
           world.
         </p>
       </div>
-      <div class="col-sm"></div>
     </div>
     <br /><br /><br />
   </div>

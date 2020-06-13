@@ -4,7 +4,6 @@
     <h1><i class="fas fa-infinity"></i> What we do</h1>
     <br />
     <div class="row">
-      <div class="col-sm"></div>
       <div class="col-sm">
         <p>
           We provide a platform for talented individuals to come together to
@@ -12,7 +11,6 @@
           software) and share their work for the benefit of society.
         </p>
       </div>
-      <div class="col-sm"></div>
     </div>
     <br /><br /><br />
   </div>

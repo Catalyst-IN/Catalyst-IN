@@ -123,6 +123,8 @@ export default {
 <style scoped>
 img {
   cursor: pointer;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 .logo {
   margin-top: 10px;
@@ -226,6 +228,9 @@ img {
     padding-right: 40px;
     margin-left: 5px;
     margin-right: 5px;
+  }
+  button {
+    margin-top: 10px;
   }
 }
 </style>
