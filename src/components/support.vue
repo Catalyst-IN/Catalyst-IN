@@ -59,11 +59,12 @@ a:hover {
 }
 .support-box {
     margin-left: 150px;
+    padding-top: 10px;
 }
 
 @media (max-width: 1000px) {
     .support-box {
-        margin-left: 10vw;
+        margin-left: 0;
     }
 }
 </style>
