@@ -1,45 +1,41 @@
 <template>
-    <agile
-        :rtl="false"
-        :dots="true"
-        :infinite="true"
-        :autoplay="true"
-        :autoplay-speed="5000"
-        :pauseOnHover="true"
-        :centerMode="true"
-    >
-        <div class="slide">
-            <a href="https://github.com/Catalyst-IN" target="_blank"
-                ><img src="../assets/event2.png"
-            /></a>
-        </div>
-        <div class="slide">
-            <a
-                href="https://github.com/Catalyst-IN/Awesome10-20_Database"
-                target="_blank"
-                ><img src="../assets/e1020.png"
-            /></a>
-        </div>
-        <!--    <div class="slide">-->
-        <!--      <a href="https://github.com/Catalyst-IN" target="_blank"-->
-        <!--        ><img src="../assets/event4.png"-->
-        <!--      /></a>-->
-        <!--    </div>-->
-        <template slot="prevButton"
-            ><i class="fas fa-chevron-left"></i
-        ></template>
-        <template slot="nextButton"
-            ><i class="fas fa-chevron-right"></i
-        ></template>
-    </agile>
+  <agile
+    :rtl="false"
+    :dots="true"
+    :infinite="true"
+    :autoplay="true"
+    :autoplay-speed="5000"
+    :pauseOnHover="true"
+    :centerMode="true"
+  >
+    <div class="slide">
+      <a href="https://github.com/Catalyst-IN" target="_blank"
+        ><img src="../assets/event2.png"
+      /></a>
+    </div>
+    <div class="slide">
+      <a
+        href="https://github.com/Catalyst-IN/Awesome10-20_Database"
+        target="_blank"
+        ><img src="../assets/e1020.png"
+      /></a>
+    </div>
+    <!--    <div class="slide">-->
+    <!--      <a href="https://github.com/Catalyst-IN" target="_blank"-->
+    <!--        ><img src="../assets/event4.png"-->
+    <!--      /></a>-->
+    <!--    </div>-->
+    <template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
+    <template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
+  </agile>
 </template>
 
 <script>
-import { VueAgile } from 'vue-agile';
+import { VueAgile } from "vue-agile";
 export default {
-    components: {
-        agile: VueAgile,
-    },
+  components: {
+    agile: VueAgile,
+  },
 };
 </script>
 
