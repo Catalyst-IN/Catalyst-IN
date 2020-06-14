@@ -9,17 +9,17 @@
     :centerMode="true"
   >
     <div class="slide">
-      <a href="https://github.com/Catalyst-CSE" target="_blank"
+      <a href="https://github.com/Catalyst-IN" target="_blank"
         ><img src="../assets/event2.png"
       /></a>
     </div>
     <div class="slide">
-      <a href="https://github.com/Catalyst-CSE" target="_blank"
+      <a href="https://github.com/Catalyst-IN" target="_blank"
         ><img src="../assets/event3.png"
       /></a>
     </div>
     <div class="slide">
-      <a href="https://github.com/Catalyst-CSE" target="_blank"
+      <a href="https://github.com/Catalyst-IN" target="_blank"
         ><img src="../assets/event4.png"
       /></a>
     </div>
