@@ -14,15 +14,17 @@
       /></a>
     </div>
     <div class="slide">
-      <a href="https://github.com/Catalyst-IN" target="_blank"
-        ><img src="../assets/event3.png"
+      <a
+        href="https://github.com/Catalyst-IN/Awesome10-20_Database"
+        target="_blank"
+        ><img src="../assets/e1020.png"
       /></a>
     </div>
-    <div class="slide">
-      <a href="https://github.com/Catalyst-IN" target="_blank"
-        ><img src="../assets/event4.png"
-      /></a>
-    </div>
+    <!--    <div class="slide">-->
+    <!--      <a href="https://github.com/Catalyst-IN" target="_blank"-->
+    <!--        ><img src="../assets/event4.png"-->
+    <!--      /></a>-->
+    <!--    </div>-->
     <template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
     <template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
   </agile>
