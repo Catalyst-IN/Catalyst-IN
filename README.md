@@ -1,4 +1,6 @@
-![logo](src\assets\logo.png)
+<p align="center">
+<img src="https://github.com/Catalyst-IN/Catalyst-IN/blob/master/src/assets/logo.png">
+ </p>
 
 # Catalyst
 
