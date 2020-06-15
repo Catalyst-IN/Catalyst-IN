@@ -1,10 +1,14 @@
+<p align="center">
+<img src="https://github.com/Catalyst-IN/Catalyst-IN/blob/master/src/assets/logo.png">
+ </p>
+
 # Catalyst
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://catalyst-in.netlify.app/)
 
 **Check website here :** [Catalyst](https://catalyst-in.netlify.app/)
 
 This is the main website for Catalyst Open Source. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us.This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
-
-![Wireframe](https://user-images.githubusercontent.com/47811606/82260167-63f0b280-997a-11ea-9960-45dd4b3e7154.png)
 
 ## Contributing
 
@@ -14,14 +18,14 @@ Please read our [Contributing Guidelines](https://github.com/Catalyst-SMVD/Catal
 
 ## Branches
 
-- **master**: These branches contain the deployment of the website.
-- **develop**: This contains the latest code. All the contributing PRs must be sent to this branch.
-- **production**: Merge develop into production triggers deployment of the website.
+-   **master**: These branches contain the deployment of the website.
+-   **develop**: This contains the latest code. All the contributing PRs must be sent to this branch.
+-   **production**: Merge develop into production triggers deployment of the website.
 
 ### Usage
 
 You should have `node` and `npm` installed in your system.  
-**1.** `git clone https://github.com/Catalyst-CSE/Catalyst.git`  
+**1.** `git clone https://github.com/Catalyst-IN/Catalyst-IN`  
 **2.** Run `npm install` in the root directory to install the dependencies.  
 **3.** Run `npm run serve` in the root directory.<br>
 **4.** Open `http://localhost:8080/` in any web browser.
