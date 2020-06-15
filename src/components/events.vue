@@ -15,7 +15,7 @@
     </div>
     <div class="slide">
       <a
-        href="https://github.com/Catalyst-IN/Awesome10-20_Database"
+        href="https://github.com/Catalyst-IN/Awesome-10_20-FrontEnd"
         target="_blank"
         ><img src="../assets/e1020.png"
       /></a>
