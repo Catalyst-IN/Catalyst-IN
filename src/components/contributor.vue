@@ -215,7 +215,7 @@ img:hover {
   color: #fff;
   visibility: hidden;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 23px;
   opacity: 0;
   padding-top: 20%;
   /* transition effect. not necessary */
