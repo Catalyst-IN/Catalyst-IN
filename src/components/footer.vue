@@ -105,5 +105,6 @@ a:hover {
   font-size: 16px;
   letter-spacing: 0.05em;
   color: #575757;
+  margin-left: 2.5rem;
 }
 </style>
