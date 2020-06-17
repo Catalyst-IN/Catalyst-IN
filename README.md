@@ -18,9 +18,9 @@ Please read our [Contributing Guidelines](https://github.com/Catalyst-SMVD/Catal
 
 ## Branches
 
--   **master**: These branches contain the deployment of the website.
--   **develop**: This contains the latest code. All the contributing PRs must be sent to this branch.
--   **production**: Merge develop into production triggers deployment of the website.
+- **master**: These branches contain the deployment of the website.
+- **develop**: This contains the latest code. All the contributing PRs must be sent to this branch.
+- **production**: Merge develop into production triggers deployment of the website.
 
 ### Usage
 

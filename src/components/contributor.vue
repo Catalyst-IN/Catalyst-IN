@@ -4,12 +4,8 @@
       <div class="img__wrap">
         <img class="img__img" src="../assets/anubhav.jpg" />
         <p class="img__description">
-          <br />
-          <span class="centered">
-            Anubhav Singh <br />Admin <br />
-            ios developer(GSoC'20 @amahi)</span
-          >
-          <br />
+          <br /><br />
+          <span class="centered"> Anubhav Singh <br />Admin <br /> </span>
           <span class="social-icons">
             <a
               href="https://www.linkedin.com/in/anubhav-singh-27512a167/"

@@ -62,6 +62,7 @@ export default {
             "This iOS-application contains a list of open source events and hackathons",
           link: "https://github.com/Catalyst-CSE/OpenSourceEvents-iOS",
           imageLink: "ios-app.png",
+          readMoreActivated: false,
         },
         {
           title: "Website",
@@ -70,6 +71,7 @@ export default {
             "This website contains a list of open source events and hackathons",
           link: "https://opensourcefrontend.netlify.app/",
           imageLink: "logo.png",
+          readMoreActivated: false,
         },
         {
           title: "Collection of events",
@@ -78,6 +80,7 @@ export default {
             "This is a collection of Open Source events and Hackathons. Students always forget the dates of Open Source event and recall after the date is over to fill the form.",
           link: "https://github.com/Catalyst-IN/Open-Source-Events",
           imageLink: "open.png",
+          readMoreActivated: false,
         },
         {
           title: "Awesome 10-20",
@@ -86,6 +89,7 @@ export default {
             "The goal of this project/platform is to provide a very interactive space/platform for information seekers",
           link: "https://github.com/Catalyst-IN/Awesome10-20_Database",
           imageLink: "1020.png",
+          readMoreActivated: false,
         },
       ],
     };
